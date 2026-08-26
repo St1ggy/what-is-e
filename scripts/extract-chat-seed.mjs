@@ -4,7 +4,7 @@ import path from 'node:path'
 const inputArgument = process.argv[2]
 
 if (!inputArgument) {
-  console.error('Usage: npm run data:extract -- <conversation.json> [output.json]')
+  console.error('Usage: bun run data:extract -- <conversation.json> [output.json]')
   process.exit(1)
 }
 

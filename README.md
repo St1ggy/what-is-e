@@ -4,9 +4,15 @@
 
 ## Разработка
 
+Проект использует Bun 1.4.0. Версия закреплена в `package.json`; чтобы установить её глобально через mise:
+
 ```sh
-npm install
-npm run dev
+mise use -g bun@1.4.0
+```
+
+```sh
+bun install
+bun run dev
 ```
 
 ## Данные
@@ -14,8 +20,8 @@ npm run dev
 Исходный экспорт разговора не хранится в репозитории. Чтобы повторить извлечение и пересборку каталога:
 
 ```sh
-npm run data:extract -- /path/to/what-e.json
-npm run data:build
+bun run data:extract -- /path/to/what-e.json
+bun run data:build
 ```
 
 `data:build` использует исторический индекс E-номеров как вторичный источник названий и сопоставляет коды с официальным текстом ТР ТС 029/2012. Отсутствие автоматического совпадения сохраняется как неизвестный статус, а не как запрет.
@@ -23,11 +29,11 @@ npm run data:build
 ## Проверка
 
 ```sh
-npm run check
-npm run lint
-npm run test:unit -- --run
-npm run test:e2e
-npm run build
+bun run check
+bun run lint
+bun run test:unit --run
+bun run test:e2e
+bun run build
 ```
 
 ## Vercel

@@ -136,7 +136,7 @@ async function loadWikipediaRows() {
       .get()
       .filter(Boolean)
       .join('; ')
-    const rawStatus = cells.length > 2 ? cleanText($(cells.at(-1)).text()) : ''
+    const rawStatus = cells.length > 2 ? cleanText(cells.last().text()) : ''
 
     rows.push({ code, nameEn: nameEn || code, purpose: middle, rawStatus })
   })
