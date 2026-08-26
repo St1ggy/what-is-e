@@ -58,12 +58,12 @@
     query = (event.currentTarget as HTMLInputElement).value
   }
 
-  function handleSearchFocus() {
-    isSearchFocused = true
-  }
+  async function updateSearchFocus(isFocused: boolean) {
+    const previousPosition = heroCopy.getBoundingClientRect()
 
-  function handleSearchBlur() {
-    isSearchFocused = false
+    isSearchFocused = isFocused
+    await tick()
+    animateLayoutShift(previousPosition)
   }
 
   function clearSearch() {
@@ -87,8 +87,8 @@
           type="search"
           placeholder={m.searchPlaceholder()}
           oninput={handleSearchInput}
-          onfocus={handleSearchFocus}
-          onblur={handleSearchBlur}
+          onfocus={() => void updateSearchFocus(true)}
+          onblur={() => void updateSearchFocus(false)}
         />
         {#if query}
           <button class="hero-search-clear" type="button" aria-label={m.clearSearch()} onclick={clearSearch}>

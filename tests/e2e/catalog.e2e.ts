@@ -8,6 +8,12 @@ async function waitForAnimations(locator: Locator) {
   )
 }
 
+async function getFontSize(locator: Locator) {
+  const fontSize = await locator.evaluate((element) => getComputedStyle(element).fontSize)
+
+  return Number(fontSize.slice(0, -2))
+}
+
 test.beforeEach(async ({ page }) => {
   await page.addInitScript(() => localStorage.setItem('PARAGLIDE_LOCALE', 'ru'))
 })
@@ -133,17 +139,14 @@ test('animates the search layout and keeps an empty result compact', async ({ pa
 
   await waitForAnimations(searchRow)
   await expect(page.locator('.hero-results .additive-card')).not.toHaveCount(0)
+  const activeSearchTop = (await searchRow.boundingBox())!.y
+
   await searchInput.fill('3123')
-
-  const animationDurations = await heroCopy.evaluate((element) =>
-    element.getAnimations().map((animation) => animation.effect?.getTiming().duration),
-  )
-
-  expect(animationDurations).toContain(160)
 
   const emptyState = page.locator('.hero-no-results')
 
   await expect(emptyState).toBeVisible()
+  expect((await searchRow.boundingBox())!.y).toBeCloseTo(activeSearchTop, 0)
   await expect(emptyState).toHaveCSS('border-top-style', 'none')
   expect((await emptyState.boundingBox())!.height).toBeLessThan(40)
 })
@@ -151,14 +154,28 @@ test('animates the search layout and keeps an empty result compact', async ({ pa
 test('keeps the landing search expanded while focused or populated', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 })
   await page.goto('/')
+  const heroCopy = page.locator('.hero-copy')
+  const heroLead = page.locator('.hero-lead')
+  const heroTitle = page.getByRole('heading', { name: 'Что за E?' })
   const searchRow = page.locator('.hero-search-row')
   const searchInput = page.getByLabel('Поиск добавки')
+
+  await waitForAnimations(heroCopy)
   const initialWidth = (await searchRow.boundingBox())!.width
+  const initialTop = (await searchRow.boundingBox())!.y
+  const initialTitleSize = await getFontSize(heroTitle)
 
   await searchInput.focus()
   await expect.poll(async () => (await searchRow.boundingBox())!.width).toBeGreaterThan(initialWidth + 100)
-  await waitForAnimations(searchRow)
+  await waitForAnimations(heroCopy)
   const expandedWidth = (await searchRow.boundingBox())!.width
+  const expandedTop = (await searchRow.boundingBox())!.y
+  const expandedTitleSize = await getFontSize(heroTitle)
+
+  await expect(heroLead).toHaveCSS('opacity', '0')
+  expect(expandedTop).toBeLessThan(initialTop - 100)
+  expect(expandedTitleSize).toBeLessThan(initialTitleSize)
+  expect(expandedTitleSize).toBeGreaterThanOrEqual(54)
 
   await searchInput.fill('45')
   await expect(page.locator('.hero-results .additive-card')).not.toHaveCount(0)
@@ -167,8 +184,10 @@ test('keeps the landing search expanded while focused or populated', async ({ pa
   await searchInput.fill('')
   expect((await searchRow.boundingBox())!.width).toBeCloseTo(expandedWidth, 0)
 
-  await page.getByRole('heading', { name: 'Что за E?' }).click()
+  await heroTitle.click()
   await expect.poll(async () => (await searchRow.boundingBox())!.width).toBeCloseTo(initialWidth, 0)
+  await expect(heroLead).toHaveCSS('opacity', '1')
+  expect(await getFontSize(heroTitle)).toBeCloseTo(initialTitleSize, 0)
 })
 
 test('loads catalog cards in batches', async ({ page }) => {
