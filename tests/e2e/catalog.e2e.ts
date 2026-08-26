@@ -55,6 +55,40 @@ test('keeps the additive URL as a direct navigation fallback', async ({ page }) 
   await expect(page.getByRole('heading', { name: 'Глутамат натрия, MSG' })).toBeVisible()
 })
 
+test('keeps the footer at the viewport edge only for short content', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 1000 })
+  await page.goto('/')
+  await page.getByLabel('Поиск добавки').fill('451')
+  await expect(page.locator('.hero-results .additive-card')).toHaveCount(2)
+
+  const shortPageFooter = (await page.locator('.site-footer').boundingBox())!
+
+  expect(shortPageFooter.y + shortPageFooter.height).toBeCloseTo(1000, 0)
+
+  await page.goto('/catalog')
+
+  const longPageFooter = (await page.locator('.site-footer').boundingBox())!
+
+  expect(longPageFooter.y).toBeGreaterThanOrEqual(1000)
+})
+
+test('spans the catalog icon across both heading lines', async ({ page }) => {
+  await page.goto('/catalog')
+
+  const [iconBox, headingBox, glyphBox] = await Promise.all([
+    page.locator('.catalog-icon').boundingBox(),
+    page.locator('.catalog-title-row .ui-section-heading').boundingBox(),
+    page.locator('.catalog-icon svg').boundingBox(),
+  ])
+
+  expect(iconBox).not.toBeNull()
+  expect(headingBox).not.toBeNull()
+  expect(glyphBox).not.toBeNull()
+  expect(iconBox!.height).toBeCloseTo(headingBox!.height, 0)
+  expect(iconBox!.width).toBeGreaterThanOrEqual(64)
+  expect(glyphBox!.width).toBeGreaterThanOrEqual(40)
+})
+
 test('combines filters and keeps them in the URL', async ({ page }) => {
   await page.goto('/catalog')
   const resetButton = page.getByRole('button', { name: 'Сбросить' })

@@ -1,19 +1,11 @@
 .site-shell {
+  display: grid;
+  grid-template-rows: 1fr auto;
+
   min-height: 100dvh;
 }
 
 .site-shell > main {
-  min-height: 70dvh;
-}
-
-.site-shell:has(.home-page) {
-  display: grid;
-  grid-template-rows: minmax(0, 1fr) auto;
-
-  min-height: 100dvh;
-}
-
-.site-shell:has(.home-page) > main {
   min-height: 0;
 }
 
@@ -28,10 +20,6 @@
 
 .site-shell:has(.home-page) .site-footer {
   margin-top: 0;
-}
-
-.site-shell:has(.home-page .hero.results-visible) {
-  display: block;
 }
 
 .home-page .hero.results-visible {
@@ -403,13 +391,13 @@
 
 .catalog-icon {
   display: grid;
+  flex: 0 0 clamp(64px, 6vw, 86px);
   place-items: center;
+  align-self: stretch;
 
-  width: 38px;
-  height: 38px;
-  margin-top: 3px;
+  width: clamp(64px, 6vw, 86px);
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 16px;
 
   color: var(--accent);
 }
