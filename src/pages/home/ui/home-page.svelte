@@ -17,16 +17,17 @@
   let isDetailsOpen = $state(false)
   let query = $state('')
   let settledQuery = $state('')
-  const searchResults = $derived(
+  const allSearchResults = $derived(
     settledQuery.trim()
       ? filterAdditives(additives, {
           query: settledQuery,
           risk: 'all',
           category: 'all',
           status: 'all',
-        }).slice(0, landingResultLimit)
+        })
       : [],
   )
+  const searchResults = $derived(allSearchResults.slice(0, landingResultLimit))
   const localizedSelectedAdditive = $derived(
     selectedAdditive ? localizeAdditive(selectedAdditive, getLocale()) : undefined,
   )
@@ -59,7 +60,13 @@
 </svelte:head>
 
 <div class="home-page">
-  <HeroSection bind:query results={searchResults} resultQuery={settledQuery} onSelect={openDetails} />
+  <HeroSection
+    bind:query
+    results={searchResults}
+    resultQuery={settledQuery}
+    totalResults={allSearchResults.length}
+    onSelect={openDetails}
+  />
 </div>
 
 <Modal

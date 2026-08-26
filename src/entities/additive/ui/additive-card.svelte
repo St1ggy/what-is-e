@@ -25,6 +25,11 @@
       ? localizedAdditive.riskSummary
       : undefined,
   )
+  const accessibleName = $derived(
+    additive.legacy
+      ? `${additive.code}: ${localizedAdditive.name}, ${m.legacyCode()}`
+      : `${additive.code}: ${localizedAdditive.name}`,
+  )
 
   function handleClick(event: MouseEvent) {
     if (!onSelect || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return
@@ -38,7 +43,7 @@
   <a
     class="card-link"
     href={resolve('/additives/[code]', { code: additive.slug })}
-    aria-label={`${additive.code}: ${localizedAdditive.name}`}
+    aria-label={accessibleName}
     onclick={handleClick}
   >
     <div class="card-topline">

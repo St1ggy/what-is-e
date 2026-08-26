@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { resolve } from '$app/paths'
   import { BookOpen, ExternalLink, Scale, ShieldCheck } from '@lucide/svelte'
 
   import {
@@ -20,6 +21,7 @@
 
   const { additive }: { additive: Additive } = $props()
   const localizedAdditive = $derived(localizeAdditive(additive, getLocale()))
+  const detailHref = $derived(resolve('/additives/[code]', { code: additive.slug }))
   const description = $derived(removeRepeatedLead(localizedAdditive.description, localizedAdditive.name))
   const additiveSources = $derived(
     additive.sourceIds
@@ -48,7 +50,7 @@
     </div>
   </header>
 
-  <main class="modal-main">
+  <div class="modal-main">
     <section class="modal-section modal-overview">
       <p class="modal-kicker"><BookOpen size={16} aria-hidden="true" /> {m.whatAndWhy()}</p>
       <p class="modal-lead">{description}</p>
@@ -85,10 +87,11 @@
         </div>
       </div>
     </section>
-  </main>
+  </div>
 
   <footer class="modal-sources">
     <span>{m.checked()} {additive.reviewedAt}</span>
+    <a class="modal-full-link" href={detailHref}>{m.openFullPage()}</a>
     {#each additiveSources.slice(0, 3) as source (source?.id)}
       {#if source}
         <!-- eslint-disable-next-line svelte/no-navigation-without-resolve -- External source URL. -->
@@ -139,7 +142,7 @@
   .modal-category,
   .modal-kicker {
     margin: 0;
-    color: var(--risk-accent, var(--accent));
+    color: var(--risk-foreground, var(--accent));
     font-size: 0.72rem;
     font-weight: 800;
     text-transform: uppercase;
@@ -153,7 +156,7 @@
   }
 
   .modal-code {
-    color: var(--risk-accent);
+    color: var(--risk-foreground, var(--risk-accent));
     font-size: clamp(4.8rem, 8vw, 6.8rem);
     font-weight: 720;
     line-height: 0.72;
@@ -170,8 +173,8 @@
     font-size: clamp(1.8rem, 3.2vw, 2.8rem);
     line-height: 1;
     letter-spacing: -0.055em;
-    overflow-wrap: break-word;
-    hyphens: none;
+    overflow-wrap: anywhere;
+    hyphens: auto;
   }
 
   .modal-name-en {
@@ -298,6 +301,10 @@
     gap: 4px;
     align-items: center;
     color: var(--accent);
+  }
+
+  .modal-sources .modal-full-link {
+    font-weight: 750;
   }
 
   :global([data-theme='dark']) .modal-attention {

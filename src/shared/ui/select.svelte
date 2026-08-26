@@ -25,11 +25,18 @@
         <span>{selectedLabel}</span>
         <span aria-hidden="true" class:open={select.open}><ChevronDown size={16} /></span>
       </button>
-      <div class="ui-select-content" {...select.content}>
+      <div
+        class="ui-select-content"
+        {...select.content}
+        aria-activedescendant={select.highlighted
+          ? `${select.ids.content}-${select.getOptionId(select.highlighted)}`
+          : undefined}
+      >
         {#each options as option (option.value)}
           <div
             class="ui-select-option"
             class:selected={select.isSelected(option.value)}
+            id={`${select.ids.content}-${select.getOptionId(option.value)}`}
             {...select.getOption(option.value, option.label)}
           >
             <span>{option.label}</span>

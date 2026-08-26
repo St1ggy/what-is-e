@@ -3,19 +3,20 @@
   import type { HTMLInputAttributes } from 'svelte/elements'
 
   type Props = Omit<HTMLInputAttributes, 'value'> & {
+    element?: HTMLInputElement
     label: string
     leading?: Snippet
     value?: string
   }
 
-  let { label, leading, value = $bindable(''), class: className = '', ...rest }: Props = $props()
+  let { element = $bindable(), label, leading, value = $bindable(''), class: className = '', ...rest }: Props = $props()
 </script>
 
 <label class="ui-field {className}">
   <span class="ui-field-label">{label}</span>
   <span class="ui-input-shell">
     {#if leading}<span class="ui-input-leading">{@render leading()}</span>{/if}
-    <input bind:value {...rest} />
+    <input bind:this={element} bind:value {...rest} />
   </span>
 </label>
 

@@ -11,7 +11,14 @@
     query = $bindable(''),
     results,
     resultQuery,
-  }: { onSelect: (additive: Additive) => void; query: string; results: Additive[]; resultQuery: string } = $props()
+    totalResults,
+  }: {
+    onSelect: (additive: Additive) => void
+    query: string
+    results: Additive[]
+    resultQuery: string
+    totalResults: number
+  } = $props()
   let searchInput: HTMLInputElement
   let heroCopy: HTMLDivElement
   let layoutAnimation: Animation | undefined
@@ -119,8 +126,18 @@
       </div>
     </div>
 
+    {#if resultQuery.trim() && !isSearchPending}
+      <div class="hero-results-meta">
+        <p aria-live="polite">{m.searchResultsFound({ count: totalResults })}</p>
+        {#if totalResults > results.length}
+          <!-- eslint-disable-next-line svelte/no-navigation-without-resolve -- The route is resolved before the query string is appended. -->
+          <a href={catalogHref}>{m.showAllSearchResults({ count: totalResults })}</a>
+        {/if}
+      </div>
+    {/if}
+
     {#if resultQuery.trim() && (results.length === 0 || isResultsVisible)}
-      <div class:no-results={results.length === 0} class="hero-results" aria-live="polite">
+      <div class:no-results={results.length === 0} class="hero-results">
         {#if results.length > 0}
           {#each results as additive (additive.code)}
             <AdditiveCard {additive} {onSelect} />

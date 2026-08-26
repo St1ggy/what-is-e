@@ -16,7 +16,7 @@
 <div class="catalog-heading">
   <div class="catalog-title-row">
     <span class="catalog-icon"><Database size={40} aria-hidden="true" /></span>
-    <SectionHeading eyebrow={m.catalogEyebrow()} title={m.findCode()} />
+    <SectionHeading eyebrow={m.catalogEyebrow()} level={1} title={m.findCode()} />
   </div>
   <div class="catalog-stats" aria-label={m.catalogStats()}>
     <span><strong>{totalCount}</strong> {m.historicalCodes()}</span>

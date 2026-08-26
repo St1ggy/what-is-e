@@ -1,5 +1,6 @@
 <script lang="ts">
   import { RotateCcw, Search, SlidersHorizontal } from '@lucide/svelte'
+  import { tick } from 'svelte'
 
   import {
     type AdditiveCategory,
@@ -30,6 +31,7 @@
     risk = $bindable(),
     status = $bindable(),
   }: Props = $props()
+  let searchInput = $state<HTMLInputElement>()
 
   const riskOptions = $derived<SelectOption<RiskLevel | 'all'>[]>([
     { value: 'all', label: m.anyAssessment() },
@@ -47,6 +49,12 @@
     { value: 'unverified', label: m.needsReview() },
   ])
   const canReset = $derived(query.trim() !== '' || risk !== 'all' || category !== 'all' || status !== 'all')
+
+  async function resetFilters() {
+    onReset()
+    await tick()
+    searchInput?.focus()
+  }
 </script>
 
 <div class="search-panel">
@@ -54,7 +62,13 @@
     <SlidersHorizontal size={18} aria-hidden="true" />
     <strong>{m.catalog()}</strong>
   </div>
-  <TextField bind:value={query} label={m.searchLabel()} placeholder={m.searchPlaceholder()} type="search">
+  <TextField
+    bind:element={searchInput}
+    bind:value={query}
+    label={m.searchLabel()}
+    placeholder={m.searchPlaceholder()}
+    type="search"
+  >
     {#snippet leading()}<Search size={20} aria-hidden="true" />{/snippet}
   </TextField>
 
@@ -68,7 +82,7 @@
         aria-label={m.reset()}
         class="reset-button"
         disabled={!canReset}
-        onclick={onReset}
+        onclick={() => void resetFilters()}
         tabindex={canReset ? 0 : -1}
         title={m.reset()}
         variant="ghost"
