@@ -7,7 +7,8 @@ import { base, build, files, version } from '$service-worker'
 
 const worker = globalThis.self as unknown as ServiceWorkerGlobalScope
 const cacheName = `what-e-${version}`
-const coreRoutes = [`${base}/`, `${base}/catalog`, `${base}/methodology`]
+const offlineRoute = `${base}/offline`
+const coreRoutes = [`${base}/`, `${base}/catalog`, `${base}/methodology`, offlineRoute]
 const appShell = [...build, ...files, ...coreRoutes]
 
 async function installAppShell() {
@@ -37,7 +38,7 @@ async function handleNavigation(cache: Cache, request: Request): Promise<Respons
   try {
     return await fetchAndCache(cache, request)
   } catch (error) {
-    const cached = (await cache.match(request)) ?? (await cache.match(`${base}/`))
+    const cached = (await cache.match(request)) ?? (await cache.match(offlineRoute))
 
     if (cached) return cached
 

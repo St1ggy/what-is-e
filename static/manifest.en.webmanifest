@@ -1,8 +1,8 @@
 {
-  "name": "Что за E? — справочник пищевых добавок",
-  "short_name": "Что за E?",
-  "description": "Понятный справочник E-добавок с оценкой риска и статусами в ЕС и ЕАЭС.",
-  "lang": "ru",
+  "name": "What is E? — a food additive guide",
+  "short_name": "What is E?",
+  "description": "A clear food additive guide with risk assessments and EU and EAEU regulatory statuses.",
+  "lang": "en",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -32,14 +32,14 @@
   ],
   "shortcuts": [
     {
-      "name": "Каталог",
-      "short_name": "Каталог",
+      "name": "Catalog",
+      "short_name": "Catalog",
       "url": "/catalog",
       "icons": [{ "src": "/pwa-192.png", "sizes": "192x192" }]
     },
     {
-      "name": "Методология",
-      "short_name": "Методология",
+      "name": "Methodology",
+      "short_name": "Methodology",
       "url": "/methodology",
       "icons": [{ "src": "/pwa-192.png", "sizes": "192x192" }]
     }

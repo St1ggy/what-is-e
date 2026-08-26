@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="text-scale" content="scale" />
+    %sveltekit.head%
     <script>
       ;(() => {
         const storedLocale = localStorage.getItem('PARAGLIDE_LOCALE')
@@ -23,9 +24,19 @@
 
         document.documentElement.lang = locale
         document.documentElement.dataset.theme = theme
+        document
+          .querySelector('link[rel="manifest"]')
+          ?.setAttribute('href', locale === 'ru' ? '/manifest.webmanifest' : '/manifest.en.webmanifest')
+        document
+          .querySelector('meta[name="theme-color"]')
+          ?.setAttribute('content', theme === 'dark' ? '#10110f' : '#f7f7f4')
+
+        const applicationName = locale === 'ru' ? 'Что за E?' : 'What is E?'
+
+        document.querySelector('meta[name="application-name"]')?.setAttribute('content', applicationName)
+        document.querySelector('meta[name="apple-mobile-web-app-title"]')?.setAttribute('content', applicationName)
       })()
     </script>
-    %sveltekit.head%
   </head>
   <body data-sveltekit-preload-data="hover">
     <div style="display: contents">%sveltekit.body%</div>
