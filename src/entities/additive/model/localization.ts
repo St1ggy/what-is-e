@@ -14,6 +14,47 @@ type Locale = 'ru' | 'en'
 type CatalogMessage = (inputs?: Record<string, never>, options?: { locale?: Locale }) => string
 
 const catalogMessages = m as unknown as Record<string, CatalogMessage | undefined>
+const categoryMessages: Record<AdditiveCategory, CatalogMessage> = {
+  colors: m.categoryColors,
+  preservatives: m.categoryPreservatives,
+  antioxidants: m.categoryAntioxidants,
+  texturizers: m.categoryTexturizers,
+  minerals: m.categoryMinerals,
+  'flavor-enhancers': m.categoryFlavorEnhancers,
+  sweeteners: m.categorySweeteners,
+  other: m.categoryOther,
+}
+const riskMessages: Record<RiskLevel, CatalogMessage> = {
+  low: m.riskLow,
+  caution: m.riskCaution,
+  limit: m.riskLimit,
+  uncertain: m.riskUncertain,
+  avoid: m.riskAvoid,
+}
+const catalogRiskMessages: Record<RiskLevel, CatalogMessage> = {
+  low: m.catalogRiskLow,
+  caution: m.catalogRiskCaution,
+  limit: m.catalogRiskLimit,
+  uncertain: m.catalogRiskUncertain,
+  avoid: m.catalogRiskAvoid,
+}
+const audienceMessages: Record<AudienceFlag, CatalogMessage> = {
+  allergy: m.audienceAllergy,
+  asthma: m.audienceAsthma,
+  children: m.audienceChildren,
+  kidney: m.audienceKidney,
+  pku: m.audiencePku,
+  vegan: m.audienceVegan,
+  digestion: m.audienceDigestion,
+}
+const jurisdictionStatusMessages: Record<JurisdictionStatus, CatalogMessage> = {
+  allowed: m.statusAllowed,
+  restricted: m.statusRestricted,
+  transition: m.statusTransition,
+  withdrawn: m.statusWithdrawn,
+  'not-authorized': m.statusNotAuthorized,
+  unknown: m.statusUnknown,
+}
 
 function getCatalogMessage(key: string, locale: Locale): string | undefined {
   return catalogMessages[key]?.({}, { locale })
@@ -49,57 +90,19 @@ function englishJurisdictionSummary(region: 'eu' | 'eaeu', status: JurisdictionS
 }
 
 export function getCategoryLabel(category: AdditiveCategory, locale: Locale): string {
-  const options = { locale }
-
-  return {
-    colors: m.categoryColors({}, options),
-    preservatives: m.categoryPreservatives({}, options),
-    antioxidants: m.categoryAntioxidants({}, options),
-    texturizers: m.categoryTexturizers({}, options),
-    minerals: m.categoryMinerals({}, options),
-    'flavor-enhancers': m.categoryFlavorEnhancers({}, options),
-    sweeteners: m.categorySweeteners({}, options),
-    other: m.categoryOther({}, options),
-  }[category]
+  return categoryMessages[category]({}, { locale })
 }
 
 export function getRiskLabel(risk: RiskLevel, locale: Locale): string {
-  const options = { locale }
-
-  return {
-    low: m.riskLow({}, options),
-    caution: m.riskCaution({}, options),
-    limit: m.riskLimit({}, options),
-    uncertain: m.riskUncertain({}, options),
-    avoid: m.riskAvoid({}, options),
-  }[risk]
+  return riskMessages[risk]({}, { locale })
 }
 
 export function getAudienceFlagLabel(flag: AudienceFlag, locale: Locale): string {
-  const options = { locale }
-
-  return {
-    allergy: m.audienceAllergy({}, options),
-    asthma: m.audienceAsthma({}, options),
-    children: m.audienceChildren({}, options),
-    kidney: m.audienceKidney({}, options),
-    pku: m.audiencePku({}, options),
-    vegan: m.audienceVegan({}, options),
-    digestion: m.audienceDigestion({}, options),
-  }[flag]
+  return audienceMessages[flag]({}, { locale })
 }
 
 export function getJurisdictionStatusLabel(status: JurisdictionStatus, locale: Locale): string {
-  const options = { locale }
-
-  return {
-    allowed: m.statusAllowed({}, options),
-    restricted: m.statusRestricted({}, options),
-    transition: m.statusTransition({}, options),
-    withdrawn: m.statusWithdrawn({}, options),
-    'not-authorized': m.statusNotAuthorized({}, options),
-    unknown: m.statusUnknown({}, options),
-  }[status]
+  return jurisdictionStatusMessages[status]({}, { locale })
 }
 
 export function localizeAdditive(additive: Additive, locale: Locale): Additive {
@@ -123,14 +126,7 @@ export function localizeAdditive(additive: Additive, locale: Locale): Additive {
     : m.additiveUsedAs({ name, purpose }, options)
   const audience = additive.audienceFlags.map((flag) => getAudienceFlagLabel(flag, 'en'))
   const extraCare = audience.length > 0 ? m.additiveExtraCare({ audience: audience.join(', ') }, options) : ''
-  const riskSummary =
-    {
-      low: m.catalogRiskLow({}, options),
-      caution: m.catalogRiskCaution({}, options),
-      limit: m.catalogRiskLimit({}, options),
-      uncertain: m.catalogRiskUncertain({}, options),
-      avoid: m.catalogRiskAvoid({}, options),
-    }[additive.risk] + extraCare
+  const riskSummary = catalogRiskMessages[additive.risk]({}, options) + extraCare
 
   return {
     ...additive,

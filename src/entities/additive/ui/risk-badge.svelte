@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { CircleHelp, Gauge, Info, OctagonAlert, ShieldCheck } from '@lucide/svelte'
+  import { CircleQuestionMark, Gauge, Info, OctagonAlert, ShieldCheck } from '@lucide/svelte'
 
   import { getLocale } from '@/paraglide/runtime'
   import { Badge } from '@/shared/ui'
@@ -14,7 +14,7 @@
     low: ShieldCheck,
     caution: Info,
     limit: Gauge,
-    uncertain: CircleHelp,
+    uncertain: CircleQuestionMark,
     avoid: OctagonAlert,
   }
   const RiskIcon = $derived(icons[risk])

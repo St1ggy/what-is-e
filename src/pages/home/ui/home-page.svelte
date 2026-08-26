@@ -9,22 +9,42 @@
 
   import HeroSection from './hero-section.svelte'
 
+  const landingResultLimit = 48
+  const searchDebounceMilliseconds = 160
+
   let selectedAdditive = $state<Additive>()
   let isDetailsOpen = $state(false)
   let query = $state('')
+  let settledQuery = $state('')
   const searchResults = $derived(
-    query.trim()
+    settledQuery.trim()
       ? filterAdditives(additives, {
-          query,
+          query: settledQuery,
           risk: 'all',
           category: 'all',
           status: 'all',
-        })
+        }).slice(0, landingResultLimit)
       : [],
   )
   const localizedSelectedAdditive = $derived(
     selectedAdditive ? localizeAdditive(selectedAdditive, getLocale()) : undefined,
   )
+
+  $effect(() => {
+    const nextQuery = query
+
+    if (!nextQuery.trim()) {
+      settledQuery = nextQuery
+
+      return
+    }
+
+    const debounceTimer = globalThis.setTimeout(() => {
+      settledQuery = nextQuery
+    }, searchDebounceMilliseconds)
+
+    return () => globalThis.clearTimeout(debounceTimer)
+  })
 
   function openDetails(additive: Additive) {
     selectedAdditive = additive
@@ -38,7 +58,7 @@
 </svelte:head>
 
 <div class="home-page">
-  <HeroSection bind:query results={searchResults} onSelect={openDetails} />
+  <HeroSection bind:query results={searchResults} resultQuery={settledQuery} onSelect={openDetails} />
 </div>
 
 <Modal

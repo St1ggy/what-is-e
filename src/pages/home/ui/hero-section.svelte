@@ -5,48 +5,35 @@
 
   import { type Additive, AdditiveCard } from '@/entities/additive'
   import * as m from '@/paraglide/messages'
-  import { getLocale } from '@/paraglide/runtime'
 
   let {
     onSelect,
     query = $bindable(''),
     results,
-  }: { onSelect: (additive: Additive) => void; query: string; results: Additive[] } = $props()
+    resultQuery,
+  }: { onSelect: (additive: Additive) => void; query: string; results: Additive[]; resultQuery: string } = $props()
   let searchInput: HTMLInputElement
   let heroCopy: HTMLDivElement
   let layoutAnimation: Animation | undefined
   let isResultsVisible = $state(false)
-  const hasResults = $derived(Boolean(query.trim() && results.length > 0))
+  const isSearchPending = $derived(query !== resultQuery)
+  const hasResults = $derived(Boolean(!isSearchPending && resultQuery.trim() && results.length > 0))
   const catalogHref = $derived(
     query.trim() ? `${resolve('/catalog')}?q=${encodeURIComponent(query.trim())}` : resolve('/catalog'),
   )
 
   $effect(() => {
     if (!hasResults) {
-      isResultsVisible = false
+      if (isResultsVisible) void updateResultsVisibility(false)
 
       return
     }
 
-    const revealTimer = globalThis.setTimeout(
-      () => {
-        isResultsVisible = true
-      },
-      globalThis.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 180,
-    )
-
-    return () => globalThis.clearTimeout(revealTimer)
+    if (!isResultsVisible) void updateResultsVisibility(true)
   })
 
-  async function updateQuery(nextQuery: string) {
-    const previousPosition = heroCopy.getBoundingClientRect()
-
-    query = nextQuery
-
-    await tick()
-
-    const nextPosition = heroCopy.getBoundingClientRect()
-    const offset = previousPosition.top - nextPosition.top
+  function animateLayoutShift(previousPosition: DOMRect) {
+    const offset = previousPosition.top - heroCopy.getBoundingClientRect().top
 
     if (Math.abs(offset) < 1 || globalThis.matchMedia('(prefers-reduced-motion: reduce)').matches) return
 
@@ -57,22 +44,26 @@
     })
   }
 
-  async function handleSearchInput(event: Event) {
-    await updateQuery((event.currentTarget as HTMLInputElement).value)
+  async function updateResultsVisibility(isVisible: boolean) {
+    const previousPosition = heroCopy.getBoundingClientRect()
+
+    isResultsVisible = isVisible
+    await tick()
+    animateLayoutShift(previousPosition)
   }
 
-  async function clearSearch() {
-    await updateQuery('')
+  function handleSearchInput(event: Event) {
+    query = (event.currentTarget as HTMLInputElement).value
+  }
+
+  function clearSearch() {
+    query = ''
     searchInput.focus()
   }
 </script>
 
 <section class:has-results={hasResults} class:results-visible={isResultsVisible} class="hero">
   <div class="hero-copy" bind:this={heroCopy}>
-    <a class="hero-brand" href={resolve('/')} aria-label={m.brandHomeAria()}>
-      <span>E</span>
-      {getLocale() === 'ru' ? 'Что за E?' : 'What is E?'}
-    </a>
     <h1>{m.heroTitle()} <span>E?</span></h1>
     <p class="hero-lead">{m.heroLead()}</p>
 
@@ -116,7 +107,7 @@
       </div>
     </div>
 
-    {#if query.trim() && (results.length === 0 || isResultsVisible)}
+    {#if resultQuery.trim() && (results.length === 0 || isResultsVisible)}
       <div class:no-results={results.length === 0} class="hero-results" aria-live="polite">
         {#if results.length > 0}
           {#each results as additive (additive.code)}

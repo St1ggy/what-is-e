@@ -120,12 +120,14 @@ test('animates the search layout and keeps an empty result compact', async ({ pa
   expect(expansionState.cardCount).toBe(0)
   expect(Math.abs(expansionState.footerTopDuringExpansion - expansionState.footerTopBeforeSearch)).toBeLessThan(1)
   await expect
-    .poll(() =>
-      searchRow.evaluate((element) =>
-        element
-          .getAnimations()
-          .some((animation) => animation instanceof CSSTransition && animation.transitionProperty === 'width'),
-      ),
+    .poll(
+      () =>
+        searchRow.evaluate((element) =>
+          element
+            .getAnimations()
+            .some((animation) => animation instanceof CSSTransition && animation.transitionProperty === 'width'),
+        ),
+      { intervals: [20] },
     )
     .toBe(true)
 
@@ -194,7 +196,7 @@ test('keeps search result cards equal and aligned to the grid', async ({ page })
   await expect(cards.locator('.card-arrow')).toHaveCount(0)
 })
 
-test('shows every partial code match without limiting landing results', async ({ page }) => {
+test('shows every partial code match within the landing result batch', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 })
   await page.goto('/')
   await page.getByLabel('Поиск добавки').fill('45')
@@ -208,6 +210,13 @@ test('shows every partial code match without limiting landing results', async ({
     .evaluate((element) => getComputedStyle(element).gridTemplateColumns.split(' '))
 
   expect(columns).toHaveLength(3)
+})
+
+test('limits a broad landing search to one result batch', async ({ page }) => {
+  await page.goto('/')
+  await page.getByLabel('Поиск добавки').fill('e')
+
+  await expect(page.locator('.hero-results .additive-card')).toHaveCount(48)
 })
 
 test('switches the catalog between three-column cards and compact rows', async ({ page }) => {

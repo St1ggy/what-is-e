@@ -14,6 +14,14 @@ export type CatalogFilters = {
 
 const listedStatuses = new Set<JurisdictionStatus>(['allowed', 'restricted', 'transition'])
 
+type SearchDocument = {
+  code: string
+  description: string
+  values: string[]
+}
+
+const searchDocuments = new WeakMap<Additive, SearchDocument>()
+
 export function normalizeSearchValue(value: string): string {
   return value
     .normalize('NFKD')
@@ -71,40 +79,59 @@ function codeSearchScore(code: string, query: string): number | null {
   return code.includes(query) ? 3 : null
 }
 
-function searchScore(additive: Additive, query: string): number | null {
+function getSearchDocument(additive: Additive): SearchDocument {
+  const cachedDocument = searchDocuments.get(additive)
+
+  if (cachedDocument) return cachedDocument
+
+  const document = {
+    code: normalizeCodeQuery(additive.code),
+    description: normalizeSearchValue(additive.shortDescription),
+    values: [additive.name, additive.nameEn, ...additive.aliases]
+      .filter((value): value is string => Boolean(value))
+      .map((value) => normalizeSearchValue(value)),
+  }
+
+  searchDocuments.set(additive, document)
+
+  return document
+}
+
+function searchScore(document: SearchDocument, query: string): number | null {
   if (!query) return 10
 
-  const codeScore = codeSearchScore(normalizeCodeQuery(additive.code), query)
+  const codeScore = codeSearchScore(document.code, query)
 
   if (codeScore !== null) return codeScore
 
-  const values = [additive.name, additive.nameEn, ...additive.aliases]
-    .filter((value): value is string => Boolean(value))
-    .map((value) => normalizeSearchValue(value))
+  if (document.values.includes(query)) return 4
 
-  if (values.includes(query)) return 4
+  if (document.values.some((value) => value.startsWith(query))) return 5
 
-  if (values.some((value) => value.startsWith(query))) return 5
+  if (document.values.some((value) => value.includes(query))) return 6
 
-  if (values.some((value) => value.includes(query))) return 6
-
-  if (normalizeSearchValue(additive.shortDescription).includes(query)) return 7
+  if (document.description.includes(query)) return 7
 
   return null
 }
 
 export function filterAdditives(catalog: Additive[], filters: CatalogFilters): Additive[] {
   const query = normalizeCodeQuery(filters.query)
+  const matches: { additive: Additive; score: number }[] = []
 
-  return catalog
-    .map((additive) => ({ additive, score: searchScore(additive, query) }))
-    .filter(
-      (result): result is { additive: Additive; score: number } =>
-        result.score !== null &&
-        (filters.risk === 'all' || result.additive.risk === filters.risk) &&
-        (filters.category === 'all' || result.additive.category === filters.category) &&
-        hasMatchingStatus(result.additive, filters.status),
-    )
+  for (const additive of catalog) {
+    if (filters.risk !== 'all' && additive.risk !== filters.risk) continue
+
+    if (filters.category !== 'all' && additive.category !== filters.category) continue
+
+    if (!hasMatchingStatus(additive, filters.status)) continue
+
+    const score = searchScore(getSearchDocument(additive), query)
+
+    if (score !== null) matches.push({ additive, score })
+  }
+
+  return matches
     .toSorted(
       (left, right) => left.score - right.score || compareAdditiveCodes(left.additive.code, right.additive.code),
     )

@@ -81,33 +81,6 @@
   padding-bottom: clamp(80px, 10vw, 130px);
 }
 
-.hero-brand {
-  display: inline-flex;
-  gap: 10px;
-  align-items: center;
-
-  margin-bottom: clamp(40px, 7vw, 76px);
-
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-decoration: none;
-
-  animation: fade-rise 520ms 40ms both;
-}
-
-.hero-brand > span {
-  display: grid;
-  place-items: center;
-
-  width: 30px;
-  height: 30px;
-  border: 1px solid var(--line-strong);
-  border-radius: 8px;
-
-  font-size: 0.72rem;
-  font-weight: 800;
-}
-
 .hero h1 {
   margin: 0;
 
@@ -695,11 +668,11 @@
   align-self: end;
 
   margin: 0;
-  padding-bottom: 1px;
+  padding-bottom: 0.16em;
 
   font-size: clamp(1.05rem, 1.45vw, 1.28rem);
   font-weight: 680;
-  line-height: 1.1;
+  line-height: 1.2;
   letter-spacing: -0.035em;
   overflow-wrap: anywhere;
 }
@@ -1543,10 +1516,6 @@
   .hero {
     min-height: 86svh;
     padding-inline: 18px;
-  }
-
-  .hero-brand {
-    margin-bottom: 38px;
   }
 
   .hero h1 {
