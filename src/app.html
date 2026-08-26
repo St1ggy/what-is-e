@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="text-scale" content="scale" />
+    <script>
+      ;(() => {
+        const storedLocale = localStorage.getItem('PARAGLIDE_LOCALE')
+        const locale =
+          storedLocale === 'ru' || storedLocale === 'en'
+            ? storedLocale
+            : navigator.language.startsWith('ru')
+              ? 'ru'
+              : 'en'
+        const storedTheme = localStorage.getItem('e-list-theme')
+        const theme =
+          storedTheme === 'light' || storedTheme === 'dark'
+            ? storedTheme
+            : matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light'
+
+        document.documentElement.lang = locale
+        document.documentElement.dataset.theme = theme
+      })()
+    </script>
+    %sveltekit.head%
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+</html>

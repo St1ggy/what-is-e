@@ -1,0 +1,108 @@
+:root {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-synthesis: none;
+  color: #171816;
+
+  color-scheme: light;
+  background: #f7f7f4;
+  --font-display: inherit;
+  --ink: #171816;
+  --paper: #f7f7f4;
+  --white: #fff;
+  --surface: #fff;
+  --surface-raised: #f1f1ed;
+  --surface-inverse: #171816;
+  --lime: #dfffb1;
+  --orange: #ffe4d7;
+  --yellow: #fff0b8;
+  --blue: #e7edff;
+  --pink: #ffe7ee;
+  --purple: #eee9ff;
+  --accent: #3158e8;
+  --accent-strong: #2445c2;
+  --muted: #6a6c67;
+  --line: #deded8;
+  --line-strong: #c5c6bf;
+  --border: 1px solid var(--line);
+  --shadow: 0 22px 60px rgb(18 20 16 / 9%);
+  --shadow-soft: 0 8px 24px rgb(18 20 16 / 7%);
+  --surface-translucent: rgb(247 247 244 / 88%);
+  --surface-subtle: #f3f3ef;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --content-width: 1240px;
+}
+
+:root[data-theme='dark'] {
+  color: #f3f4ef;
+
+  color-scheme: dark;
+  background: #10110f;
+  --ink: #f3f4ef;
+  --paper: #10110f;
+  --white: #181a17;
+  --surface: #181a17;
+  --surface-raised: #20221f;
+  --surface-inverse: #f3f4ef;
+  --lime: #26391c;
+  --orange: #482a20;
+  --yellow: #44380f;
+  --blue: #202b56;
+  --pink: #46232e;
+  --purple: #332c4b;
+  --accent: #8da4ff;
+  --accent-strong: #b6c3ff;
+  --muted: #a4a69f;
+  --line: #30322e;
+  --line-strong: #4a4c46;
+  --shadow: 0 18px 44px rgb(0 0 0 / 30%);
+  --shadow-soft: 0 8px 20px rgb(0 0 0 / 22%);
+  --surface-translucent: rgb(16 17 15 / 88%);
+  --surface-subtle: #151713;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+
+  font-family: inherit;
+  line-height: 1.5;
+  color: var(--ink);
+  text-rendering: optimizeLegibility;
+
+  background: var(--paper);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  outline-offset: 3px;
+}
