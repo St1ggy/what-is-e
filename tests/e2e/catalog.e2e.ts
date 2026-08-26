@@ -31,6 +31,8 @@ test('searches a code and opens its details in a modal', async ({ page }) => {
   await expect(dialog).toBeVisible()
   await expect(dialog.getByRole('heading', { name: 'Глутамат натрия, MSG', exact: true })).toBeVisible()
   await expect(dialog.getByText('ЕАЭС', { exact: true }).first()).toBeVisible()
+  await expect(dialog.getByRole('link', { name: 'Открыть полную страницу' })).toHaveAttribute('href', '/additives/e621')
+  await expect(page.locator('main')).toHaveCount(1)
   await expect(page).not.toHaveURL(/\/additives\/e621$/)
 })
 
@@ -127,7 +129,8 @@ test('stays usable on a narrow screen', async ({ page }) => {
   await expect(page.getByRole('link', { name: /E171:/ })).toBeVisible()
   await expect(historicalCard).toHaveClass(/legacy-card/)
   await expect(historicalCard).toHaveClass(/risk-edge-avoid/)
-  await expect(historicalCard.locator('.card-link')).toHaveCSS('opacity', '0.58')
+  await expect(historicalCard.locator('.card-link')).toHaveCSS('opacity', '1')
+  await expect(historicalCard.locator('.card-link')).toHaveCSS('border-top-style', 'dashed')
   const historicalMarker = historicalCard.getByRole('img', { name: 'Исторический код' })
 
   await expect(historicalMarker).toBeVisible()
@@ -293,6 +296,11 @@ test('limits a broad landing search to one result batch', async ({ page }) => {
   await page.getByLabel('Поиск добавки').fill('e')
 
   await expect(page.locator('.hero-results .additive-card')).toHaveCount(48)
+  await expect(page.getByText(/^Найдено: \d+$/)).toBeVisible()
+  await expect(page.getByRole('link', { name: /^Показать все результаты: \d+$/ })).toHaveAttribute(
+    'href',
+    '/catalog?q=e',
+  )
 })
 
 test('switches the catalog between three-column cards and compact rows', async ({ page }) => {
