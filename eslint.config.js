@@ -5,7 +5,9 @@ export default [
   {
     files: ['**/*.svelte'],
     rules: {
+      '@typescript-eslint/no-deprecated': 'error',
       'prefer-const': 'off',
+      // This SonarJS rule crashes on Svelte's transformed source; the typed rule above covers deprecations.
       'sonarjs/deprecation': 'off',
       'unicorn/no-top-level-assignment-in-function': 'off',
       'unicorn/no-unused-properties': 'off',
