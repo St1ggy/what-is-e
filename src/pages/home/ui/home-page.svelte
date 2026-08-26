@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { type Additive, additives, localizeAdditive } from '@/entities/additive'
+  import { type Additive, localizeAdditive } from '@/entities/additive'
   import * as m from '@/paraglide/messages'
   import { getLocale } from '@/paraglide/runtime'
   import { Modal } from '@/shared/ui'
@@ -12,6 +12,7 @@
   const landingResultLimit = 48
   const searchDebounceMilliseconds = 160
 
+  const { additives }: { additives: readonly Additive[] } = $props()
   let selectedAdditive = $state<Additive>()
   let isDetailsOpen = $state(false)
   let query = $state('')

@@ -82,6 +82,12 @@ export type Additive = {
   legacy?: boolean
 }
 
+export type AdditiveCatalogStats = {
+  eaeuCount: number
+  researchedCount: number
+  totalCount: number
+}
+
 export const categoryLabels: Record<AdditiveCategory, string> = {
   colors: 'Красители',
   preservatives: 'Консерванты',

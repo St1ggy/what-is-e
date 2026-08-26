@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest'
 
-import { additives, localizeAdditive } from '@/entities/additive'
+import { localizeAdditive } from '@/entities/additive'
+
+import { additiveRepo } from '$lib/server/additive-repo'
 
 import { filterAdditives, normalizeCodeQuery, normalizeSearchValue } from './catalog-search'
 
@@ -10,6 +12,7 @@ const defaults = {
   category: 'all' as const,
   status: 'all' as const,
 }
+const additives = await additiveRepo.list()
 
 describe('catalog search', () => {
   it('normalizes Latin and Cyrillic code queries', () => {

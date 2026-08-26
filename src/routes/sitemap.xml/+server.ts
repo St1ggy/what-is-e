@@ -1,4 +1,4 @@
-import { additives } from '@/entities/additive'
+import { additiveRepo } from '$lib/server/additive-repo'
 
 import type { RequestHandler } from './$types'
 
@@ -6,7 +6,8 @@ import { env } from '$env/dynamic/public'
 
 export const prerender = true
 
-export const GET: RequestHandler = () => {
+export const GET: RequestHandler = async () => {
+  const additives = await additiveRepo.list()
   const origin = (env.PUBLIC_SITE_URL || 'https://what-e.vercel.app').replace(/\/$/, '')
   const paths = ['/', '/methodology', ...additives.map((additive) => `/additives/${additive.slug}`)]
   const body = `<?xml version="1.0" encoding="UTF-8"?>

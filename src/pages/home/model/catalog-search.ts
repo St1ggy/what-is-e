@@ -115,7 +115,7 @@ function searchScore(document: SearchDocument, query: string): number | null {
   return null
 }
 
-export function filterAdditives(catalog: Additive[], filters: CatalogFilters): Additive[] {
+export function filterAdditives(catalog: readonly Additive[], filters: CatalogFilters): Additive[] {
   const query = normalizeCodeQuery(filters.query)
   const matches: { additive: Additive; score: number }[] = []
 

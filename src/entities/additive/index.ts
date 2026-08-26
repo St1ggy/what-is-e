@@ -1,5 +1,4 @@
 export * from './model/additive'
-export * from './model/catalog'
 export * from './model/localization'
 export * from './model/sources'
 export { default as AdditiveCard } from './ui/additive-card.svelte'

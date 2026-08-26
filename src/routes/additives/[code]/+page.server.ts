@@ -1,15 +1,19 @@
 import { error } from '@sveltejs/kit'
 
-import { additives, additivesBySlug } from '@/entities/additive'
+import { additiveRepo } from '$lib/server/additive-repo'
 
 import type { EntryGenerator, PageServerLoad } from './$types'
 
 export const prerender = true
 
-export const entries: EntryGenerator = () => additives.map((additive) => ({ code: additive.slug }))
+export const entries: EntryGenerator = async () => {
+  const additives = await additiveRepo.list()
 
-export const load: PageServerLoad = ({ params }) => {
-  const additive = additivesBySlug.get(params.code.toLowerCase())
+  return additives.map((additive) => ({ code: additive.slug }))
+}
+
+export const load: PageServerLoad = async ({ params }) => {
+  const additive = await additiveRepo.findBySlug(params.code)
 
   if (!additive) error(404, 'Добавка не найдена')
 

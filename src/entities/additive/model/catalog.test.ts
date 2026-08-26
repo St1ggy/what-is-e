@@ -1,8 +1,11 @@
 import { describe, expect, it } from 'vitest'
 
+import { additiveRepo } from '$lib/server/additive-repo'
+
 import { additiveCategories, additiveSlug, jurisdictionStatuses, riskLevels } from './additive'
-import { additives } from './catalog'
 import { sourcesById } from './sources'
+
+const additives = await additiveRepo.list()
 
 describe('historical additive catalog', () => {
   it('contains the complete historical index as individual entries', () => {
@@ -46,5 +49,21 @@ describe('historical additive catalog', () => {
     expect(additive171?.jurisdictions.eu.current).toBe('withdrawn')
     expect(additive171?.jurisdictions.eaeu.current).toBe('restricted')
     expect(additive621?.risk).toBe('caution')
+  })
+
+  it('exposes lookup and aggregate data through the repository contract', async () => {
+    const [additive621, missingAdditive, stats] = await Promise.all([
+      additiveRepo.findBySlug('E621'),
+      additiveRepo.findBySlug('missing'),
+      additiveRepo.getStats(),
+    ])
+
+    expect(additive621?.code).toBe('E621')
+    expect(missingAdditive).toBeUndefined()
+    expect(stats).toEqual({
+      totalCount: additives.length,
+      researchedCount: additives.filter((additive) => additive.risk !== 'uncertain').length,
+      eaeuCount: additives.filter((additive) => additive.jurisdictions.eaeu.current === 'restricted').length,
+    })
   })
 })

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { resolve } from '$app/paths'
 
-  import { type Additive, localizeAdditive } from '@/entities/additive'
+  import { type Additive, type AdditiveCatalogStats, localizeAdditive } from '@/entities/additive'
   import * as m from '@/paraglide/messages'
   import { getLocale } from '@/paraglide/runtime'
   import { Modal } from '@/shared/ui'
@@ -9,6 +9,7 @@
 
   import AdditiveCatalog from './additive-catalog.svelte'
 
+  const { additives, stats }: { additives: readonly Additive[]; stats: AdditiveCatalogStats } = $props()
   let selectedAdditive = $state<Additive>()
   let isDetailsOpen = $state(false)
   const localizedSelectedAdditive = $derived(
@@ -28,7 +29,7 @@
 
 <div class="catalog-page">
   <a class="back-link" href={resolve('/')}>{m.backHome()}</a>
-  <AdditiveCatalog onSelect={openDetails} />
+  <AdditiveCatalog {additives} {stats} onSelect={openDetails} />
 </div>
 
 <Modal

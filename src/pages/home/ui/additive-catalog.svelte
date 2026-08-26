@@ -4,10 +4,10 @@
 
   import {
     type Additive,
+    type AdditiveCatalogStats,
     type AdditiveCategory,
     type RiskLevel,
     additiveCategories,
-    additives,
     riskLevels,
   } from '@/entities/additive'
 
@@ -17,7 +17,17 @@
   import CatalogHeading from './catalog-heading.svelte'
   import CatalogResults from './catalog-results.svelte'
 
-  let { onSelect, query = $bindable('') }: { onSelect: (additive: Additive) => void; query?: string } = $props()
+  let {
+    additives,
+    onSelect,
+    query = $bindable(''),
+    stats,
+  }: {
+    additives: readonly Additive[]
+    onSelect: (additive: Additive) => void
+    query?: string
+    stats: AdditiveCatalogStats
+  } = $props()
 
   let risk = $state<RiskLevel | 'all'>('all')
   let category = $state<AdditiveCategory | 'all'>('all')
@@ -26,9 +36,6 @@
   let isHydrated = $state(false)
 
   const results = $derived(filterAdditives(additives, { query, risk, category, status }))
-  const researchedCount = additives.filter((additive) => additive.risk !== 'uncertain').length
-  const eaeuCount = additives.filter((additive) => additive.jurisdictions.eaeu.current === 'restricted').length
-
   afterNavigate(() => {
     if (isHydrated) return
 
@@ -79,7 +86,7 @@
 </script>
 
 <section class="catalog-section" id="catalog">
-  <CatalogHeading totalCount={additives.length} {researchedCount} {eaeuCount} />
+  <CatalogHeading {...stats} />
   <CatalogFilters bind:query bind:risk bind:category bind:status onReset={resetFilters} />
   <CatalogResults bind:visibleCount {results} onReset={resetFilters} {onSelect} />
 </section>

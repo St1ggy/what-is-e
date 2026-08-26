@@ -1,7 +1,7 @@
 <script lang="ts">
   import { resolve } from '$app/paths'
 
-  import { additives, sources } from '@/entities/additive'
+  import { type AdditiveCatalogStats, sources } from '@/entities/additive'
   import * as m from '@/paraglide/messages'
 
   import CatalogPipelineSection from './catalog-pipeline-section.svelte'
@@ -10,7 +10,7 @@
   import RiskScaleSection from './risk-scale-section.svelte'
   import SourcesSection from './sources-section.svelte'
 
-  const researchedCount = additives.filter((additive) => additive.risk !== 'uncertain').length
+  const { stats }: { stats: AdditiveCatalogStats } = $props()
 </script>
 
 <svelte:head>
@@ -22,7 +22,7 @@
   <a class="back-link" href={resolve('/')}>{m.backHome()}</a>
   <MethodologyHero />
   <RiskScaleSection />
-  <CatalogPipelineSection totalCount={additives.length} {researchedCount} />
+  <CatalogPipelineSection totalCount={stats.totalCount} researchedCount={stats.researchedCount} />
   <DataLimitationsSection />
   <SourcesSection {sources} />
 </div>
