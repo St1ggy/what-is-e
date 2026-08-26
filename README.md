@@ -40,4 +40,4 @@ bun run build
 
 ## Vercel
 
-Проект использует `@sveltejs/adapter-vercel`. Все 525 страниц добавок пререндерятся. Для корректного `sitemap.xml` задайте `PUBLIC_SITE_URL` с публичным адресом сайта; без переменной используется `https://what-e.vercel.app`.
+Проект использует `@sveltejs/adapter-vercel`. Все 525 страниц добавок пререндерятся. Для корректного `sitemap.xml` задайте `PUBLIC_SITE_URL` с публичным адресом сайта; без переменной используется `https://what-is-e.vercel.app`.
