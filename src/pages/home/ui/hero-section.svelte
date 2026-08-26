@@ -16,7 +16,9 @@
   let heroCopy: HTMLDivElement
   let layoutAnimation: Animation | undefined
   let isResultsVisible = $state(false)
+  let isSearchFocused = $state(false)
   const isSearchPending = $derived(query !== resultQuery)
+  const isSearchExpanded = $derived(isSearchFocused || Boolean(query.trim()))
   const hasResults = $derived(Boolean(!isSearchPending && resultQuery.trim() && results.length > 0))
   const catalogHref = $derived(
     query.trim() ? `${resolve('/catalog')}?q=${encodeURIComponent(query.trim())}` : resolve('/catalog'),
@@ -56,13 +58,21 @@
     query = (event.currentTarget as HTMLInputElement).value
   }
 
+  function handleSearchFocus() {
+    isSearchFocused = true
+  }
+
+  function handleSearchBlur() {
+    isSearchFocused = false
+  }
+
   function clearSearch() {
     query = ''
     searchInput.focus()
   }
 </script>
 
-<section class:has-results={hasResults} class:results-visible={isResultsVisible} class="hero">
+<section class:search-expanded={isSearchExpanded} class:results-visible={isResultsVisible} class="hero">
   <div class="hero-copy" bind:this={heroCopy}>
     <h1>{m.heroTitle()} <span>E?</span></h1>
     <p class="hero-lead">{m.heroLead()}</p>
@@ -77,6 +87,8 @@
           type="search"
           placeholder={m.searchPlaceholder()}
           oninput={handleSearchInput}
+          onfocus={handleSearchFocus}
+          onblur={handleSearchBlur}
         />
         {#if query}
           <button class="hero-search-clear" type="button" aria-label={m.clearSearch()} onclick={clearSearch}>

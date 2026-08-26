@@ -119,7 +119,7 @@
   animation: fade-rise 680ms 260ms both;
 }
 
-.hero.has-results .hero-search-row {
+.hero.search-expanded .hero-search-row {
   width: 100%;
 }
 

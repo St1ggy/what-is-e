@@ -148,6 +148,29 @@ test('animates the search layout and keeps an empty result compact', async ({ pa
   expect((await emptyState.boundingBox())!.height).toBeLessThan(40)
 })
 
+test('keeps the landing search expanded while focused or populated', async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 1000 })
+  await page.goto('/')
+  const searchRow = page.locator('.hero-search-row')
+  const searchInput = page.getByLabel('Поиск добавки')
+  const initialWidth = (await searchRow.boundingBox())!.width
+
+  await searchInput.focus()
+  await expect.poll(async () => (await searchRow.boundingBox())!.width).toBeGreaterThan(initialWidth + 100)
+  await waitForAnimations(searchRow)
+  const expandedWidth = (await searchRow.boundingBox())!.width
+
+  await searchInput.fill('45')
+  await expect(page.locator('.hero-results .additive-card')).not.toHaveCount(0)
+  expect((await searchRow.boundingBox())!.width).toBeCloseTo(expandedWidth, 0)
+
+  await searchInput.fill('')
+  expect((await searchRow.boundingBox())!.width).toBeCloseTo(expandedWidth, 0)
+
+  await page.getByRole('heading', { name: 'Что за E?' }).click()
+  await expect.poll(async () => (await searchRow.boundingBox())!.width).toBeCloseTo(initialWidth, 0)
+})
+
 test('loads catalog cards in batches', async ({ page }) => {
   await page.goto('/catalog')
 
