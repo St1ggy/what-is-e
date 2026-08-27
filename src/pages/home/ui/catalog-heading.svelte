@@ -6,11 +6,11 @@
 
   type Props = {
     eaeuCount: number
-    researchedCount: number
+    reviewedCount: number
     totalCount: number
   }
 
-  const { eaeuCount, researchedCount, totalCount }: Props = $props()
+  const { eaeuCount, reviewedCount, totalCount }: Props = $props()
 </script>
 
 <div class="catalog-heading">
@@ -20,7 +20,7 @@
   </div>
   <div class="catalog-stats" aria-label={m.catalogStats()}>
     <span><strong>{totalCount}</strong> {m.historicalCodes()}</span>
-    <span><strong>{researchedCount}</strong> {m.assessedCodes()}</span>
+    <span><strong>{reviewedCount}</strong> {m.assessedCodes()}</span>
     <span><strong>{eaeuCount}</strong> {m.eaeuCodes()}</span>
   </div>
 </div>

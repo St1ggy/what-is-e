@@ -3,11 +3,11 @@
   import { SectionHeading } from '@/shared/ui'
 
   type Props = {
-    researchedCount: number
+    reviewedCount: number
     totalCount: number
   }
 
-  const { researchedCount, totalCount }: Props = $props()
+  const { reviewedCount, totalCount }: Props = $props()
 </script>
 
 <section class="method-section">
@@ -16,7 +16,7 @@
     <SectionHeading compact title={m.catalogBuild()} />
     <div class="pipeline-grid">
       <div><strong>{totalCount}</strong><span>{m.individualCodes()}</span></div>
-      <div><strong>{researchedCount}</strong><span>{m.researchCodes()}</span></div>
+      <div><strong>{reviewedCount}</strong><span>{m.reviewedCodes()}</span></div>
       <div><strong>2</strong><span>{m.regulatorySystems()}</span></div>
     </div>
     <ol class="method-list">

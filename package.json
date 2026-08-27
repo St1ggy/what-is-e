@@ -8,7 +8,6 @@
     "dev": "bun --bun vite dev",
     "build": "bun --bun vite build",
     "data:build": "bun scripts/build-catalog.mjs",
-    "data:extract": "bun scripts/extract-chat-seed.mjs",
     "preview": "bun --bun vite preview",
     "prepare": "bun --bun svelte-kit sync || echo ''",
     "check": "bun --bun svelte-kit sync && bun --bun svelte-check --tsconfig ./tsconfig.json",

@@ -2,12 +2,14 @@ import * as cheerio from 'cheerio'
 import { readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { PDFParse } from 'pdf-parse'
+import { format, resolveConfig } from 'prettier'
 
-const SEED_PATH = path.resolve('src/entities/additive/api/chat-seed.json')
+const ASSESSMENTS_PATH = path.resolve('data/official-assessments.json')
+const EU_AUTHORIZATIONS_PATH = path.resolve('data/eu-authorized-additives.json')
 const OUTPUT_PATH = path.resolve('src/entities/additive/api/additives.json')
+const SOURCE_OUTPUT_PATH = path.resolve('src/entities/additive/api/assessment-sources.json')
 const WIKIPEDIA_API = 'https://en.wikipedia.org/w/api.php'
 const EAEU_REGULATION_PDF = 'https://eec.eaeunion.org/upload/medialibrary/90d/P_58.pdf'
-const REVIEWED_AT = '2026-08-25'
 
 function cleanText(value) {
   return value
@@ -54,51 +56,16 @@ function additiveSlug(code) {
   return code.toLowerCase().replaceAll(/[^a-z0-9]+/g, '-')
 }
 
-function normalizeEuStatus(rawStatus) {
-  const status = rawStatus.toLowerCase()
-
-  if (/no longer approved|approval withdrawn|withdrawn/.test(status)) return 'withdrawn'
-
-  if (/not approved in the eu|forbidden in the eu|banned in the eu/.test(status)) return 'not-authorized'
-
-  if (/restricted use approved in the eu/.test(status)) return 'restricted'
-
-  if (/approved in the eu/.test(status)) return 'restricted'
-
-  return 'unknown'
-}
-
-function euSummary(status, rawStatus) {
+function euSummary(status) {
   if (status === 'restricted') {
-    return 'Указана как разрешённая в ЕС; продукты и максимальные уровни зависят от категории.'
+    return 'Есть в официальной базе разрешённых пищевых добавок ЕС; категории продуктов и максимальные уровни проверяются отдельно.'
   }
 
   if (status === 'withdrawn') return 'Исторический E-код, исключённый из актуального перечня ЕС.'
 
   if (status === 'not-authorized') return 'В справочном перечне указана как не разрешённая сейчас в ЕС.'
 
-  return rawStatus
-    ? `Текущий статус требует сверки с EUR-Lex. Справочная пометка: ${rawStatus}`
-    : 'Текущий статус требует сверки с актуальной редакцией законодательства ЕС.'
-}
-
-function riskSummary(seed) {
-  const summary = seed?.seedAssessment
-    .replaceAll(/[🟢🟡🟠⛔]/gu, '')
-    .replace(/^[/\s;]+/, '')
-    .trim()
-
-  if (summary) return summary
-
-  if (seed?.risk === 'low') return 'Низкий риск для большинства людей при обычном употреблении.'
-
-  return 'Отдельная оценка риска в исходном исследовании отсутствует; важны доза и условия применения.'
-}
-
-function russianName(seed, nameEn) {
-  if (!seed) return nameEn
-
-  return seed.seedDescription.split(/\.\s/, 1)[0].replace(/\.$/, '').trim() || nameEn
+  return 'Код не найден в нормализованном снимке официальной базы ЕС; отсутствие совпадения не доказывает запрет.'
 }
 
 async function loadWikipediaRows() {
@@ -157,16 +124,55 @@ async function loadEaeuCodes(knownCodes) {
   }
 }
 
-const seed = JSON.parse(await readFile(SEED_PATH, 'utf8'))
-const seedByCode = new Map(seed.entries.map((entry) => [entry.code, entry]))
+const assessmentData = JSON.parse(await readFile(ASSESSMENTS_PATH, 'utf8'))
+const euAuthorizationData = JSON.parse(await readFile(EU_AUTHORIZATIONS_PATH, 'utf8'))
+const assessmentByCode = new Map(assessmentData.records.map((record) => [record.code, record]))
+const assessmentSourcesById = new Map(assessmentData.sources.map((source) => [source.id, source]))
+
+if (assessmentData.records.length !== 315 || assessmentByCode.size !== 315) {
+  throw new Error('Official assessment manifest must contain exactly 315 unique records')
+}
+
+for (const record of assessmentData.records) {
+  const expectedRisk = assessmentData.methodology.riskMapping[record.assessmentConclusion]
+
+  if (record.risk !== expectedRisk) {
+    throw new Error(`${record.code} risk does not match its official assessment conclusion`)
+  }
+
+  if (record.sourceIds.length === 0 || record.sourceIds.some((sourceId) => !assessmentSourcesById.has(sourceId))) {
+    throw new Error(`${record.code} references an unknown assessment source`)
+  }
+
+  if (
+    record.risk !== 'uncertain' &&
+    record.sourceIds.every((sourceId) => assessmentSourcesById.get(sourceId)?.kind !== 'assessment')
+  ) {
+    throw new Error(`${record.code} needs a specific official assessment source`)
+  }
+}
+
+if (
+  euAuthorizationData.withdrawals.some((withdrawal) =>
+    euAuthorizationData.entries.some((entry) => entry.code === withdrawal.code),
+  )
+) {
+  throw new Error('EU authorization entries must not contain explicit EUR-Lex withdrawals')
+}
+
+const REVIEWED_AT = '2026-08-27'
+const euWithdrawals = new Map(
+  euAuthorizationData.withdrawals.map((withdrawal) => [withdrawal.code, withdrawal.sourceId]),
+)
+const euAuthorizedCodes = new Set(euAuthorizationData.entries.map((entry) => entry.code))
 const wikipediaRows = await loadWikipediaRows()
 const rowByCode = new Map(wikipediaRows.map((row) => [row.code, row]))
 
-for (const seedEntry of seed.entries) {
-  if (!rowByCode.has(seedEntry.code)) {
-    rowByCode.set(seedEntry.code, {
-      code: seedEntry.code,
-      nameEn: seedEntry.code,
+for (const assessment of assessmentData.records) {
+  if (!rowByCode.has(assessment.code)) {
+    rowByCode.set(assessment.code, {
+      code: assessment.code,
+      nameEn: assessment.nameEn ?? assessment.code,
       purpose: '',
       rawStatus: '',
     })
@@ -178,28 +184,24 @@ const eaeuCodes = await loadEaeuCodes(knownCodes)
 const additives = rowByCode
   .values()
   .map((row) => {
-    const seedEntry = seedByCode.get(row.code)
-    let euStatus = seedEntry ? 'restricted' : normalizeEuStatus(row.rawStatus)
+    const assessment = assessmentByCode.get(row.code)
+    let euStatus = 'unknown'
 
-    if (seedEntry?.risk === 'avoid') euStatus = 'withdrawn'
-
-    if (row.code === 'E171' || row.code === 'E203') euStatus = 'withdrawn'
+    if (euWithdrawals.has(row.code)) euStatus = 'withdrawn'
+    else if (euAuthorizedCodes.has(row.code)) euStatus = 'restricted'
 
     const eaeuStatus = eaeuCodes.has(row.code) ? 'restricted' : 'unknown'
-    const sourceIds = ['wikipedia-e-number']
+    const sourceIds = [
+      ...(assessment?.sourceIds ?? []),
+      euWithdrawals.get(row.code) ?? 'eu-food-additives-portal',
+      'eaeu-tr-ts-029-2012',
+      'wikipedia-e-number',
+    ]
 
-    if (seedEntry) sourceIds.push('chat-report', 'efsa-food-additives')
-
-    if (euStatus !== 'unknown') sourceIds.push('eu-1333-2008')
-
-    if (eaeuStatus !== 'unknown') sourceIds.push('eaeu-tr-ts-029-2012')
-
-    if (row.code === 'E171') sourceIds.push('efsa-e171')
-
-    const name = russianName(seedEntry, row.nameEn)
-    const description = seedEntry
-      ? `${seedEntry.seedDescription}. Оценку следует читать вместе с разрешёнными дозами и категорией продукта.`
-      : `Исторический E-код: ${row.nameEn}. Для него пока нет отдельной оценки в исходном исследовании.`
+    const name = assessment?.name ?? row.nameEn
+    const description = assessment
+      ? `${name}. Вывод основан на указанных официальных оценках EFSA или JECFA и должен читаться вместе с разрешёнными условиями применения.`
+      : `Исторический E-код: ${row.nameEn}. Отдельная официальная оценка пока не добавлена.`
 
     return {
       code: row.code,
@@ -207,19 +209,27 @@ const additives = rowByCode
       name,
       nameEn: row.nameEn === row.code ? undefined : row.nameEn,
       aliases: row.nameEn === row.code ? [] : [row.nameEn],
-      category: seedEntry?.category ?? categoryFromCode(row.code),
+      category: assessment?.category ?? categoryFromCode(row.code),
       functions: row.purpose ? [row.purpose] : [],
-      shortDescription: seedEntry?.seedDescription ?? `Историческая добавка ${row.nameEn}.`,
+      shortDescription: assessment?.name ?? `Историческая добавка ${row.nameEn}.`,
       description,
       commonProducts: [],
-      risk: seedEntry?.risk ?? 'uncertain',
-      riskSummary: riskSummary(seedEntry),
-      audienceFlags: seedEntry?.audienceFlags ?? [],
+      risk: assessment?.risk ?? 'uncertain',
+      riskSummary:
+        assessment?.riskSummary ??
+        'Отдельная официальная оценка пока не добавлена; уровень риска зависит от вещества, дозы и условий применения.',
+      riskSummaryEn: assessment?.riskSummaryEn,
+      audienceFlags: assessment?.audienceFlags ?? [],
+      adi: assessment?.adi,
+      assessmentReviewed: Boolean(assessment),
+      assessmentConclusion: assessment?.assessmentConclusion,
+      assessmentSourceIds: assessment?.sourceIds ?? [],
+      assessmentReviewedAt: assessment?.reviewedAt,
       jurisdictions: {
         eu: {
           current: euStatus,
-          summary: euSummary(euStatus, row.rawStatus),
-          sourceIds: euStatus === 'unknown' ? ['wikipedia-e-number'] : ['eu-1333-2008', 'wikipedia-e-number'],
+          summary: euSummary(euStatus),
+          sourceIds: [euWithdrawals.get(row.code) ?? 'eu-food-additives-portal'],
         },
         eaeu: {
           current: eaeuStatus,
@@ -231,8 +241,8 @@ const additives = rowByCode
         },
       },
       sourceIds: [...new Set(sourceIds)],
-      reviewedAt: REVIEWED_AT,
-      family: seedEntry?.fromExpression === row.code ? undefined : seedEntry?.fromExpression,
+      reviewedAt: assessment?.reviewedAt ?? REVIEWED_AT,
+      family: assessment?.family,
       legacy: euStatus === 'withdrawn' || euStatus === 'not-authorized',
     }
   })
@@ -246,7 +256,13 @@ const additives = rowByCode
     )
   })
 
-await writeFile(OUTPUT_PATH, `${JSON.stringify(additives, null, 2)}\n`, 'utf8')
+const prettierConfig = await resolveConfig(OUTPUT_PATH)
+const [catalogOutput, sourceOutput] = await Promise.all([
+  format(JSON.stringify(additives), { ...prettierConfig, filepath: OUTPUT_PATH }),
+  format(JSON.stringify(assessmentData.sources), { ...prettierConfig, filepath: SOURCE_OUTPUT_PATH }),
+])
+
+await Promise.all([writeFile(OUTPUT_PATH, catalogOutput, 'utf8'), writeFile(SOURCE_OUTPUT_PATH, sourceOutput, 'utf8')])
 console.log(
-  `Built ${additives.length} additives: ${seedByCode.size} researched, ${eaeuCodes.size} mentioned in TR TS 029/2012`,
+  `Built ${additives.length} additives: ${assessmentByCode.size} officially reviewed, ${eaeuCodes.size} mentioned in TR TS 029/2012`,
 )

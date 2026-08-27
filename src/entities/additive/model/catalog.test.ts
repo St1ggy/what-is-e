@@ -2,8 +2,8 @@ import { describe, expect, it } from 'vitest'
 
 import { additiveRepo } from '$lib/server/additive-repo'
 
-import { additiveCategories, additiveSlug, jurisdictionStatuses, riskLevels } from './additive'
-import { sourcesById } from './sources'
+import { additiveCategories, additiveSlug, assessmentConclusions, jurisdictionStatuses, riskLevels } from './additive'
+import { sources, sourcesById } from './sources'
 
 const additives = await additiveRepo.list()
 
@@ -25,11 +25,25 @@ describe('historical additive catalog', () => {
       expect(riskLevels).toContain(additive.risk)
       expect(jurisdictionStatuses).toContain(additive.jurisdictions.eu.current)
       expect(jurisdictionStatuses).toContain(additive.jurisdictions.eaeu.current)
+      expect(typeof additive.assessmentReviewed).toBe('boolean')
       expect(additive.reviewedAt).toMatch(/^\d{4}-\d{2}-\d{2}$/)
+
+      if (additive.assessmentReviewed) {
+        expect(assessmentConclusions).toContain(additive.assessmentConclusion)
+        expect(additive.assessmentSourceIds.length).toBeGreaterThan(0)
+        expect(additive.assessmentSourceIds.every((sourceId) => sourcesById.has(sourceId))).toBe(true)
+        expect(additive.sourceIds.slice(0, additive.assessmentSourceIds.length)).toEqual(additive.assessmentSourceIds)
+      } else {
+        expect(additive.risk).toBe('uncertain')
+        expect(additive.assessmentSourceIds).toEqual([])
+      }
     }
   })
 
   it('references only registered sources', () => {
+    expect(new Set(sources.map((source) => source.id)).size).toBe(sources.length)
+    expect(sources.some((source) => source.id === 'chat-report')).toBe(false)
+
     for (const additive of additives) {
       const sourceIds = [
         ...additive.sourceIds,
@@ -39,16 +53,30 @@ describe('historical additive catalog', () => {
 
       expect(sourceIds.length).toBeGreaterThan(0)
       expect(sourceIds.every((sourceId) => sourcesById.has(sourceId))).toBe(true)
+      expect(additive.sourceIds.at(-1)).toBe('wikipedia-e-number')
     }
   })
 
-  it('preserves the researched examples and regional differences', () => {
+  it('keeps official assessments separate from regional legal status', () => {
     const additive171 = additives.find((additive) => additive.code === 'E171')
+    const additive422 = additives.find((additive) => additive.code === 'E422')
     const additive621 = additives.find((additive) => additive.code === 'E621')
+    const uncertainAssessment = additives.find((additive) => additive.code === 'E101')
 
     expect(additive171?.jurisdictions.eu.current).toBe('withdrawn')
     expect(additive171?.jurisdictions.eaeu.current).toBe('restricted')
-    expect(additive621?.risk).toBe('caution')
+    expect(additive171?.risk).toBe('avoid')
+    expect(additive171?.jurisdictions.eu.sourceIds).toEqual(['eu-2022-63-e171'])
+
+    expect(additive422?.risk).toBe('caution')
+    expect(additive422?.audienceFlags).toContain('children')
+
+    expect(additive621?.risk).toBe('limit')
+    expect(additive621?.adi?.value).toBe(30)
+
+    expect(uncertainAssessment?.assessmentReviewed).toBe(true)
+    expect(uncertainAssessment?.assessmentConclusion).toBe('insufficient-data')
+    expect(uncertainAssessment?.risk).toBe('uncertain')
   })
 
   it('exposes lookup and aggregate data through the repository contract', async () => {
@@ -62,7 +90,7 @@ describe('historical additive catalog', () => {
     expect(missingAdditive).toBeUndefined()
     expect(stats).toEqual({
       totalCount: additives.length,
-      researchedCount: additives.filter((additive) => additive.risk !== 'uncertain').length,
+      reviewedCount: 315,
       eaeuCount: additives.filter((additive) => additive.jurisdictions.eaeu.current === 'restricted').length,
     })
   })

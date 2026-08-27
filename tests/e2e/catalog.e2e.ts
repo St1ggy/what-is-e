@@ -32,6 +32,11 @@ test('searches a code and opens its details in a modal', async ({ page }) => {
   await expect(dialog.getByRole('heading', { name: 'Глутамат натрия, MSG', exact: true })).toBeVisible()
   await expect(dialog.getByText('ЕАЭС', { exact: true }).first()).toBeVisible()
   await expect(dialog.getByRole('link', { name: 'Открыть полную страницу' })).toHaveAttribute('href', '/additives/e621')
+  const sourceLinks = dialog.locator('.modal-sources a[href^="http"]')
+
+  await expect(sourceLinks).toHaveCount(3)
+  await expect(sourceLinks.first()).toHaveAttribute('href', 'https://www.efsa.europa.eu/en/press/news/170712')
+  await expect(dialog.getByRole('link', { name: /Wikipedia/ })).toHaveCount(0)
   await expect(page.locator('main')).toHaveCount(1)
   await expect(page).not.toHaveURL(/\/additives\/e621$/)
 })

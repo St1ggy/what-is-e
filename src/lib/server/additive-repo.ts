@@ -11,7 +11,7 @@ const additives = rawAdditives as Additive[]
 const additivesBySlug = new Map(additives.map((additive) => [additive.slug, additive]))
 const stats: AdditiveCatalogStats = {
   totalCount: additives.length,
-  researchedCount: additives.filter((additive) => additive.risk !== 'uncertain').length,
+  reviewedCount: additives.filter((additive) => additive.assessmentReviewed).length,
   eaeuCount: additives.filter((additive) => additive.jurisdictions.eaeu.current === 'restricted').length,
 }
 

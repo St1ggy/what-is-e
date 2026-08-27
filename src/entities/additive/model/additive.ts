@@ -26,12 +26,21 @@ export type AdditiveCategory = (typeof additiveCategories)[number]
 export const audienceFlags = ['allergy', 'asthma', 'children', 'kidney', 'pku', 'vegan', 'digestion'] as const
 export type AudienceFlag = (typeof audienceFlags)[number]
 
+export const assessmentConclusions = [
+  'no-safety-concern',
+  'qualified-concern',
+  'exposure-concern',
+  'safety-concern',
+  'insufficient-data',
+] as const
+export type AssessmentConclusion = (typeof assessmentConclusions)[number]
+
 export type SourceReference = {
   id: string
   title: string
   url: string
   organization: string
-  kind: 'regulation' | 'assessment' | 'guidance' | 'seed'
+  kind: 'regulation' | 'assessment' | 'guidance' | 'database' | 'index'
   checkedAt: string
 }
 
@@ -54,6 +63,7 @@ export type AcceptableDailyIntake = {
   value?: number
   unit: 'mg/kg body weight/day' | 'not-specified' | 'group-adi'
   summary: string
+  summaryEn?: string
   sourceIds: string[]
 }
 
@@ -70,8 +80,13 @@ export type Additive = {
   commonProducts: string[]
   risk: RiskLevel
   riskSummary: string
+  riskSummaryEn?: string
   audienceFlags: AudienceFlag[]
   adi?: AcceptableDailyIntake
+  assessmentReviewed: boolean
+  assessmentConclusion?: AssessmentConclusion
+  assessmentSourceIds: string[]
+  assessmentReviewedAt?: string
   jurisdictions: {
     eu: RegionalStatus
     eaeu: RegionalStatus
@@ -84,7 +99,7 @@ export type Additive = {
 
 export type AdditiveCatalogStats = {
   eaeuCount: number
-  researchedCount: number
+  reviewedCount: number
   totalCount: number
 }
 

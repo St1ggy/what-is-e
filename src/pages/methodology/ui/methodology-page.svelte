@@ -1,7 +1,7 @@
 <script lang="ts">
   import { resolve } from '$app/paths'
 
-  import { type AdditiveCatalogStats, sources } from '@/entities/additive'
+  import { type AdditiveCatalogStats, methodologySources } from '@/entities/additive'
   import * as m from '@/paraglide/messages'
 
   import CatalogPipelineSection from './catalog-pipeline-section.svelte'
@@ -22,7 +22,7 @@
   <a class="back-link" href={resolve('/')}>{m.backHome()}</a>
   <MethodologyHero />
   <RiskScaleSection />
-  <CatalogPipelineSection totalCount={stats.totalCount} researchedCount={stats.researchedCount} />
+  <CatalogPipelineSection totalCount={stats.totalCount} reviewedCount={stats.reviewedCount} />
   <DataLimitationsSection />
-  <SourcesSection {sources} />
+  <SourcesSection sources={methodologySources} />
 </div>

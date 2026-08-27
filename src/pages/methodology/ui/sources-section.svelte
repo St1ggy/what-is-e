@@ -10,7 +10,8 @@
     regulation: m.sourceKindRegulation(),
     assessment: m.sourceKindAssessment(),
     guidance: m.sourceKindGuidance(),
-    seed: m.sourceKindSeed(),
+    database: m.sourceKindDatabase(),
+    index: m.sourceKindIndex(),
   })
 </script>
 

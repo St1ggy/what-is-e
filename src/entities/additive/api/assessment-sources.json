@@ -1,0 +1,2482 @@
+[
+  {
+    "id": "efsa-2004-83",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2004.83)",
+    "url": "https://doi.org/10.2903/j.efsa.2004.83",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2006-314b",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2006.314b)",
+    "url": "https://doi.org/10.2903/j.efsa.2006.314b",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2006-389",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2006.389)",
+    "url": "https://doi.org/10.2903/j.efsa.2006.389",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2006-390",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2006.390)",
+    "url": "https://doi.org/10.2903/j.efsa.2006.390",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2007-581",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2007.581)",
+    "url": "https://doi.org/10.2903/j.efsa.2007.581",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2007-615",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2007.615)",
+    "url": "https://doi.org/10.2903/j.efsa.2007.615",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2009-1412",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2009.1412)",
+    "url": "https://doi.org/10.2903/j.efsa.2009.1412",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2009-1413",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2009.1413)",
+    "url": "https://doi.org/10.2903/j.efsa.2009.1413",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2010-1586",
+    "title": "Scientific Opinion on the re-evaluation of Litholrubine BK (E 180) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2010.1586",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2010-1676",
+    "title": "Statement on the divergence between the risk assessment of lycopene by EFSA and the Joint FAO/WHO Expert Committee on Food Additives (JECFA)",
+    "url": "https://doi.org/10.2903/j.efsa.2010.1676",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2010-1679",
+    "title": "Scientific Opinion on the re‐evaluation of curcumin (E 100) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2010.1679",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2010-1851",
+    "title": "Scientific Opinion on the re‐evaluation of Green S (E 142) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2010.1851",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2010-1853",
+    "title": "Scientific Opinion on the re‐evaluation of Brilliant Blue FCF (E 133) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2010.1853",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2011-2004",
+    "title": "Scientific Opinion on the re‐evaluation of caramel colours (E 150 a,b,c,d) as food additives",
+    "url": "https://doi.org/10.2903/j.efsa.2011.2004",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2011-2318",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2011.2318)",
+    "url": "https://doi.org/10.2903/j.efsa.2011.2318",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2011-2392",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2011.2392)",
+    "url": "https://doi.org/10.2903/j.efsa.2011.2392",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2012-2588",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2012.2588)",
+    "url": "https://doi.org/10.2903/j.efsa.2012.2588",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2012-2589",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2012.2589)",
+    "url": "https://doi.org/10.2903/j.efsa.2012.2589",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2012-2592",
+    "title": "Scientific Opinion on the re‐evaluation of vegetable carbon (E 153) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2012.2592",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2012-2658",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2012.2658)",
+    "url": "https://doi.org/10.2903/j.efsa.2012.2658",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2012-2880",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2012.2880)",
+    "url": "https://doi.org/10.2903/j.efsa.2012.2880",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2012-2946",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2012.2946)",
+    "url": "https://doi.org/10.2903/j.efsa.2012.2946",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3144",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2013.3144)",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3144",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3145",
+    "title": "Scientific Opinion on the re‐evaluation of anthocyanins (E 163) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3145",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3146",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2013.3146)",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3146",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3234",
+    "title": "Statement on Allura Red AC and other sulphonated mono azo dyes authorised as food and feed additives",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3234",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3301",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2013.3301)",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3301",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3357",
+    "title": "Scientific Opinion on the re‐evaluation of riboflavin (E 101(i)) and riboflavin‐5′‐phosphate sodium (E 101(ii)) as food additives",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3357",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3407",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2013.3407)",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3407",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3444",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2013.3444)",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3444",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2013-3496",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2013.3496)",
+    "url": "https://doi.org/10.2903/j.efsa.2013.3496",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2014-3492",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2014.3492)",
+    "url": "https://doi.org/10.2903/j.efsa.2014.3492",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2014-3642",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2014.3642)",
+    "url": "https://doi.org/10.2903/j.efsa.2014.3642",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2014-3696",
+    "title": "Scientific Opinion on the re‐evaluation of hexamethylene tetramine (E 239) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2014.3696",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2014-3719",
+    "title": "Refined exposure assessment of Brown HT (E 155)",
+    "url": "https://doi.org/10.2903/j.efsa.2014.3719",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2014-3768",
+    "title": "Scientific Opinion on the re-evaluation of Indigo Carmine (E 132) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2014.3768",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2014-3779",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2014.3779)",
+    "url": "https://doi.org/10.2903/j.efsa.2014.3779",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-3960",
+    "title": "Refined exposure assessment for Brilliant Black BN (E 151)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.3960",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4033",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2015.4033)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4033",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4070",
+    "title": "Refined exposure assessment for Quinoline Yellow (E 104)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4070",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4087",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2015.4087)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4087",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4144",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2015.4144)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4144",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4152",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2015.4152)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4152",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4247",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2015.4247)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4247",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4288",
+    "title": "Scientific Opinion on the re‐evaluation of cochineal, carminic acid, carmines (E 120) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4288",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4290",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2015.4290)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4290",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4317",
+    "title": "Scientific Opinion on the re‐evaluation of iron oxides and hydroxides (E 172) as food additives",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4317",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2015-4319",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2015.4319)",
+    "url": "https://doi.org/10.2903/j.efsa.2015.4319",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4360",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2016.4360)",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4360",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4362",
+    "title": "Scientific Opinion on the re‐evaluation of gold (E 175) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4362",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4363",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2016.4363)",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4363",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4364",
+    "title": "Scientific opinion on the re‐evaluation of silver (E 174) as food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4364",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4433",
+    "title": "Scientific Opinion on the re‐evaluation of benzoic acid (E 210), sodium benzoate (E 211), potassium benzoate (E 212) and calcium benzoate (E 213) as food additives",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4433",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4434",
+    "title": "Safety of the proposed extension of use of synthetic β‐carotene [E 160a(ii)] in foods for special medical purposes in young children",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4434",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4437",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2016.4437)",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4437",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4438",
+    "title": "Scientific Opinion on the re‐evaluation of sulfur dioxide (E 220), sodium sulfite (E 221), sodium bisulfite (E 222), sodium metabisulfite (E 223), potassium metabisulfite (E 224), calcium sulfite (E 226), calcium bisulfite (E 227) and potassium bisulfite (E 228) as food additives",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4438",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4487",
+    "title": "Safety of the proposed extension of use of beetroot red (E 162) in foods for special medical purposes in young children",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4487",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4489",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2016.4489)",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4489",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4546",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2016.4546)",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4546",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4598",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2016.4598)",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4598",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4599",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2016.4599)",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4599",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2016-4628",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2016.4628)",
+    "url": "https://doi.org/10.2903/j.efsa.2016.4628",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4646",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4646)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4646",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4669",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4669)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4669",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4721",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4721)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4721",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4784",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4784)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4784",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4786",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4786)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4786",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4787",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4787)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4787",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4788",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4788)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4788",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4789",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4789)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4789",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4863",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4863)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4863",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4909",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4909)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4909",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-4910",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.4910)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.4910",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-5045",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.5045)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.5045",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-5049",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2017.5049)",
+    "url": "https://doi.org/10.2903/j.efsa.2017.5049",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-glutamates",
+    "title": "EFSA reviews safety of glutamates added to food",
+    "url": "https://www.efsa.europa.eu/en/press/news/170712",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2017-nitrites-nitrates",
+    "title": "EFSA confirms safe levels for nitrites and nitrates added to food",
+    "url": "https://www.efsa.europa.eu/en/press/news/170615",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5047",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5047)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5047",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5087",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5087)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5087",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5088",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5088)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5088",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5180",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5180)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5180",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5181",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5181)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5181",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5238",
+    "title": "Re-evaluation of carrageenan (E407) and processed Eucheuma seaweed (E407a)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5238",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5296",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5296)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5296",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5370",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5370)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5370",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5371",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5371)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5371",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5372",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5372)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5372",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5373",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5373)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5373",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5374",
+    "title": "Re-evaluation of sodium, potassium and calcium ferrocyanides (E535, E536, E538)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5374",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5375",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5375)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5375",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5420",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5420)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5420",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2018-5497",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2018.5497)",
+    "url": "https://doi.org/10.2903/j.efsa.2018.5497",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2019-5621",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2019.5621)",
+    "url": "https://doi.org/10.2903/j.efsa.2019.5621",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2019-5622",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2019.5622)",
+    "url": "https://doi.org/10.2903/j.efsa.2019.5622",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2019-5625",
+    "title": "Opinion on the follow‐up of the re‐evaluation of sorbic acid (E200) and potassium sorbate (E202) as food additives",
+    "url": "https://doi.org/10.2903/j.efsa.2019.5625",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2019-5751",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2019.5751)",
+    "url": "https://doi.org/10.2903/j.efsa.2019.5751",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2019-5868",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2019.5868)",
+    "url": "https://doi.org/10.2903/j.efsa.2019.5868",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2019-5922",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2019.5922)",
+    "url": "https://doi.org/10.2903/j.efsa.2019.5922",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2019-phosphates",
+    "title": "EFSA issues new advice on phosphates",
+    "url": "https://www.efsa.europa.eu/en/press/news/190612",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-5874",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.5874)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.5874",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-6030",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.6030)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.6030",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-6031",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.6031)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.6031",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-6032",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.6032)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.6032",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-6033",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.6033)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.6033",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-6107",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.6107)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.6107",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-6153",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.6153)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.6153",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-6215",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.6215)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.6215",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2020-6266",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2020.6266)",
+    "url": "https://doi.org/10.2903/j.efsa.2020.6266",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2021-6585",
+    "title": "Safety assessment of titanium dioxide (E171) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2021.6585",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2022-7266",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2022.7266)",
+    "url": "https://doi.org/10.2903/j.efsa.2022.7266",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2022-7294",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2022.7294)",
+    "url": "https://doi.org/10.2903/j.efsa.2022.7294",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2022-7308",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2022.7308)",
+    "url": "https://doi.org/10.2903/j.efsa.2022.7308",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2022-7351",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2022.7351)",
+    "url": "https://doi.org/10.2903/j.efsa.2022.7351",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2022-7353",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2022.7353)",
+    "url": "https://doi.org/10.2903/j.efsa.2022.7353",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2022-sulfites",
+    "title": "Sulfites: safety concern for high consumers, but data lacking",
+    "url": "https://www.efsa.europa.eu/en/news/sulfites-safety-concern-high-consumers-data-lacking",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2024-8880",
+    "title": "Re-evaluation of silicon dioxide (E551) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2024.8880",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2024-9044",
+    "title": "EFSA scientific opinion (10.2903/j.efsa.2024.9044)",
+    "url": "https://doi.org/10.2903/j.efsa.2024.9044",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2025-9317",
+    "title": "Re-evaluation of acesulfame K (E950) as a food additive",
+    "url": "https://doi.org/10.2903/j.efsa.2025.9317",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2026-10057",
+    "title": "Safety of acute exposure to the food additive glycerol (E422) from beverages",
+    "url": "https://doi.org/10.2903/j.efsa.2026.10057",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-2026-sucralose",
+    "title": "EFSA finds sucralose safe when used as currently authorised",
+    "url": "https://www.efsa.europa.eu/en/news/efsa-finds-sucralose-safe-when-used-currently-authorised-cannot-confirm-safety-extending-its",
+    "organization": "European Food Safety Authority",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "efsa-openfoodtox",
+    "title": "OpenFoodTox 3.0: EFSA's chemical hazards database",
+    "url": "https://doi.org/10.5281/zenodo.19388272",
+    "organization": "European Food Safety Authority",
+    "kind": "database",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-2023-aspartame",
+    "title": "Aspartame hazard and risk assessment results released",
+    "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released",
+    "organization": "World Health Organization",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1",
+    "title": "KARAYA GUM: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1032",
+    "title": "DIMETHYL DICARBONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1032",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1040",
+    "title": "NITROGEN: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1040",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1068",
+    "title": "PHOSPHATED DISTARCH PHOSPHATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1068",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1090",
+    "title": "NITROUS OXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1090",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1098",
+    "title": "SODIUM BENZOATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1098",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1110",
+    "title": "BORIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1110",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1159",
+    "title": "ALGINIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1159",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1272",
+    "title": "PROPYL GALLATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1272",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1289",
+    "title": "ISOMALT: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1289",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-133",
+    "title": "AMMONIUM HYDROGEN CARBONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/133",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1348",
+    "title": "CALCIUM ASCORBATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1348",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1355",
+    "title": "CURCUMIN: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1355",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1360",
+    "title": "CALCIUM SULFATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1360",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1361",
+    "title": "CALCIUM SULFITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1361",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1370",
+    "title": "GLUCONO delta-LACTONE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1370",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1395",
+    "title": "FERROUS GLUCONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1395",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1401",
+    "title": "CANDELILLA WAX: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1401",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1491",
+    "title": "ANTHOCYANINS: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1491",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1497",
+    "title": "FERROUS LACTATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1497",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1514",
+    "title": "beta-CAROTENE (synthetic): JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1514",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1552",
+    "title": "SODIUM LACTATE (solution): JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1552",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1559",
+    "title": "CALCIUM SILICATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1559",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1565",
+    "title": "GLYCEROL: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1565",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1569",
+    "title": "SODIUM NITRATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1569",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1704",
+    "title": "AZORUBINE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1704",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1720",
+    "title": "HEXAMETHYLENETETRAMINE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1720",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1723",
+    "title": "FUMARIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1723",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1749",
+    "title": "SHELLAC, BLEACHED: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1749",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1765",
+    "title": "ACETYLATED DISTARCH PHOSPHATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1765",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1823",
+    "title": "SODIUM ALGINATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1823",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1824",
+    "title": "SODIUM METABISULFITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1824",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1849",
+    "title": "ASPARTAME-ACESULFAME salt: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1849",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1861",
+    "title": "ARGON: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1861",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1874",
+    "title": "POTASSIUM CHLORIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1874",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1880",
+    "title": "HELIUM: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1880",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-1892",
+    "title": "SODIUM HYDROGEN CARBONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/1892",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-194",
+    "title": "ADIPIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/194",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2056",
+    "title": "GELLAN GUM: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2056",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2066",
+    "title": "beta-CYCLODEXTRIN: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2066",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2088",
+    "title": "CALCIUM SORBATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2088",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2101",
+    "title": "SULFURIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2101",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2140",
+    "title": "BUTYLATED HYDROXYANISOLE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2140",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2142",
+    "title": "BUTYLATED HYDROXYTOLUENE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2142",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2163",
+    "title": "CALCIUM PROPIONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2163",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2165",
+    "title": "CALCIUM 5'-RIBONUCLEOTIDES: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2165",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2181",
+    "title": "PENTASODIUM TRIPHOSPHATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2181",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2190",
+    "title": "CALCIUM GLUCONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2190",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2269",
+    "title": "SODIUM HYDROGEN SULFITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2269",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2271",
+    "title": "SORBITAN MONOSTEARATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2271",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2272",
+    "title": "POTASSIUM METABISULFITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2272",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2283",
+    "title": "POTASSIUM BENZOATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2283",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2286",
+    "title": "POTASSIUM HYDROGEN CARBONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2286",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2323",
+    "title": "VEGETABLE CARBON: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2323",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2340",
+    "title": "SUCRALOSE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2340",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2341",
+    "title": "SUCROGLYCERIDES: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2341",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2343",
+    "title": "HYDROXYPROPYL DISTARCH PHOSPHATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2343",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2361",
+    "title": "ALLURA RED AC: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2361",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2372",
+    "title": "SODIUM ASCORBATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2372",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2374",
+    "title": "ALUMINIUM POTASSIUM SULFATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2374",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2376",
+    "title": "MAGNESIUM OXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2376",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2401",
+    "title": "POTASSIUM PROPIONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2401",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2443",
+    "title": "SORBIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2443",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2445",
+    "title": "POTASSIUM HYDROGEN SULFITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2445",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2446",
+    "title": "POTASSIUM HYDROXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2446",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-246",
+    "title": "SORBITAN MONOLAURATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/246",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2462",
+    "title": "SILICON DIOXIDE, AMORPHOUS: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2462",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2463",
+    "title": "THERMALLY OXIDIZED SOYA BEAN OIL INTERACTED with MONO- and DIGLYCERIDES of FATTY ACIDS: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2463",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2483",
+    "title": "POTASSIUM SULFITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2483",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2510",
+    "title": "HYDROXYPROPYLMETHYL CELLULOSE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2510",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2513",
+    "title": "PATENT BLUE V: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2513",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2530",
+    "title": "PHOSPHORIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2530",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2602",
+    "title": "ERYTHORBIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2602",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2620",
+    "title": "XYLITOL: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2620",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2641",
+    "title": "SODIUM ERYTHORBATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2641",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2698",
+    "title": "PROPYLENE GLYCOL: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2698",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2703",
+    "title": "SUNSET YELLOW FCF: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2703",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2723",
+    "title": "TITANIUM DIOXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2723",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2724",
+    "title": "POTASSIUM SORBATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2724",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2736",
+    "title": "SUCROSE ESTERS of FATTY ACIDS: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2736",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2739",
+    "title": "OXYGEN: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2739",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2761",
+    "title": "SODIUM FERROCYANIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2761",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2763",
+    "title": "SODIUM GLUCONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2763",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2777",
+    "title": "POTASSIUM LACTATE (solution): JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2777",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2799",
+    "title": "HYDROCHLORIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2799",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2804",
+    "title": "CALCIUM ACETATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2804",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2806",
+    "title": "CALCIUM ALGINATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2806",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2816",
+    "title": "MONOSTARCH PHOSPHATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2816",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2828",
+    "title": "CALCIUM FERROCYANIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2828",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2842",
+    "title": "POTASSIUM NITRITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2842",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2851",
+    "title": "GLUCONIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2851",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2870",
+    "title": "LITHOL RUBINE BK: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2870",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2881",
+    "title": "MAGNESIUM HYDROXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2881",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2972",
+    "title": "SODIUM ADIPATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2972",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2977",
+    "title": "Cross-linked SODIUM CARBOXYMETHYL CELLULOSE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2977",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-299",
+    "title": "ALUMINIUM AMMONIUM SULFATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/299",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-2993",
+    "title": "SODIUM SULFITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2993",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3008",
+    "title": "SORBITAN MONOOLEATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3008",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3009",
+    "title": "SORBITAN MONOPALMITATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3009",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3011",
+    "title": "CALCIUM DISODIUM ETHYLENEDIAMINETETRAACETATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3011",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3053",
+    "title": "CALCIUM STEAROYL-2-LACTYLATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3053",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3084",
+    "title": "LACTITOL: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3084",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3112",
+    "title": "PROPANE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3112",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3122",
+    "title": "POTASSIUM ALGINATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3122",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3167",
+    "title": "POLYGLYCITOL SYRUP: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3167",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3196",
+    "title": "ETHYL CELLULOSE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3196",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3203",
+    "title": "ETHYL HYDROXYETHYL CELLULOSE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3203",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3218",
+    "title": "POTASSIUM ACETATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3218",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3255",
+    "title": "NATAMYCIN: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3255",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3286",
+    "title": "TRIETHYL CITRATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3286",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3309",
+    "title": "BRILLIANT BLUE FCF: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3309",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3331",
+    "title": "MAGNESIUM CHLORIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3331",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3367",
+    "title": "LACTIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3367",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-340",
+    "title": "STARCH SODIUM OCTENYLSUCCINATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/340",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3411",
+    "title": "SILVER: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3411",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3438",
+    "title": "PROPIONIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3438",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3446",
+    "title": "SODIUM STEAROYL-2-LACTYLATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3446",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3482",
+    "title": "BORAX: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3482",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-349",
+    "title": "TRISODIUM CITRATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/349",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3529",
+    "title": "POTASSIUM FERROCYANIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3529",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3561",
+    "title": "POLYGLYCEROL ESTERS of FATTY ACIDS: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3561",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3594",
+    "title": "CITRIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3594",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3636",
+    "title": "POTASSIUM ADIPATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3636",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-366",
+    "title": "TRIPOTASSIUM CITRATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/366",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3694",
+    "title": "HYDROXYPROPYL STARCH: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3694",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3740",
+    "title": "ERYTHROSINE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3740",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-377",
+    "title": "CARRAGEENAN: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/377",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3815",
+    "title": "BROWN HT: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3815",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3885",
+    "title": "TARTRAZINE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3885",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3893",
+    "title": "TRIACETIN: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3893",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-390",
+    "title": "POTASSIUM NITRATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/390",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3939",
+    "title": "SODIUM HYDROXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3939",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3983",
+    "title": "SORBITAN TRISTEARATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3983",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-3999",
+    "title": "SODIUM PROPIONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/3999",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4115",
+    "title": "TARA GUM: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4115",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4140",
+    "title": "DISODIUM 5'-RIBONUCLEOTIDES: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4140",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4169",
+    "title": "THAUMATIN: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4169",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4387",
+    "title": "Processed EUCHEUMA SEAWEED: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4387",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-452",
+    "title": "CALCIUM BENZOATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/452",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4530",
+    "title": "BENZOIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4530",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-457",
+    "title": "CALCIUM CARBONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/457",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-458",
+    "title": "CALCIUM CHLORIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/458",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4660",
+    "title": "POTASSIUM GLUCONATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4660",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4785",
+    "title": "ACETIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4785",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4792",
+    "title": "SODIUM NITRITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4792",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4938",
+    "title": "POLYVINYLPYRROLIDONE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4938",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-4941",
+    "title": "PONCEAU 4R: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4941",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-508",
+    "title": "SUCROSE ACETATE ISOBUTYRATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/508",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-5107",
+    "title": "NEOTAME: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5107",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-5119",
+    "title": "MANNITOL: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5119",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-5181",
+    "title": "STEARYL TARTRATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5181",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-585",
+    "title": "PROPYLENE GLYCOL ALGINATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/585",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-5876",
+    "title": "CASSIA GUM: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/5876",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-59",
+    "title": "ASCORBIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/59",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-592",
+    "title": "CARBON DIOXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/592",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-60",
+    "title": "ASCORBYL PALMITATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/60",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-609",
+    "title": "HYDROXYPROPYL CELLULOSE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/609",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-611",
+    "title": "GREEN S: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/611",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-617",
+    "title": "CAROTENES (natural): JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/617",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-6181",
+    "title": "ADVANTAME: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/6181",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-62",
+    "title": "ASPARTAME: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/62",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-6462",
+    "title": "METATARTARIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/6462",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-647",
+    "title": "DICHLORODIFLUOROMETHANE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/647",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-683",
+    "title": "PROPYLENE GLYCOL ESTERS of FATTY ACIDS: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/683",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-699",
+    "title": "BENTONITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/699",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-700",
+    "title": "METHYL CELLULOSE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/700",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-730",
+    "title": "ALUMINIUM SULFATE (anhydrous): JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/730",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-78",
+    "title": "ACETYLATED DISTARCH ADIPATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/78",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-802",
+    "title": "XANTHAN GUM: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/802",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-81",
+    "title": "CALCIUM HYDROGEN SULFITE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/81",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-82",
+    "title": "CALCIUM HYDROXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/82",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-843",
+    "title": "ALUMINIUM SILICATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/843",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-844",
+    "title": "ALUMINIUM SODIUM SULFATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/844",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-865",
+    "title": "GUM ARABIC: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/865",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-879",
+    "title": "AMMONIUM ALGINATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/879",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-88",
+    "title": "CALCIUM LACTATE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/88",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-889",
+    "title": "OXIDIZED STARCH: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/889",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-926",
+    "title": "ACESULFAME POTASSIUM: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/926",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-939",
+    "title": "CARNAUBA WAX: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/939",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-94",
+    "title": "CALCIUM OXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/94",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-941",
+    "title": "beta-apo-8'-CAROTENAL: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/941",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-949",
+    "title": "IRON OXIDES: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/949",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-953",
+    "title": "CHLOROPHYLLINS, COPPER COMPLEXES, SODIUM and POTASSIUM salts: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/953",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-961",
+    "title": "ERYTHRITOL: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/961",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-985",
+    "title": "SULFUR DIOXIDE: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/985",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-995",
+    "title": "CYCLAMIC ACID: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/995",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-996",
+    "title": "AMARANTH: JECFA evaluations",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/996",
+    "organization": "WHO / JECFA",
+    "kind": "assessment",
+    "checkedAt": "2026-08-27"
+  },
+  {
+    "id": "who-jecfa-database",
+    "title": "Evaluations of the Joint FAO/WHO Expert Committee on Food Additives",
+    "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "organization": "WHO / JECFA",
+    "kind": "database",
+    "checkedAt": "2026-08-27"
+  }
+]

@@ -126,7 +126,7 @@ export function localizeAdditive(additive: Additive, locale: Locale): Additive {
     : m.additiveUsedAs({ name, purpose }, options)
   const audience = additive.audienceFlags.map((flag) => getAudienceFlagLabel(flag, 'en'))
   const extraCare = audience.length > 0 ? m.additiveExtraCare({ audience: audience.join(', ') }, options) : ''
-  const riskSummary = catalogRiskMessages[additive.risk]({}, options) + extraCare
+  const riskSummary = (additive.riskSummaryEn ?? catalogRiskMessages[additive.risk]({}, options)) + extraCare
 
   return {
     ...additive,
@@ -137,6 +137,12 @@ export function localizeAdditive(additive: Additive, locale: Locale): Additive {
       ? m.additiveHistoricalDescription({ name }, options)
       : m.additiveDescription({ shortDescription }, options),
     riskSummary,
+    adi: additive.adi
+      ? {
+          ...additive.adi,
+          summary: additive.adi.summaryEn ?? additive.adi.summary,
+        }
+      : undefined,
     jurisdictions: {
       eu: {
         ...additive.jurisdictions.eu,
@@ -184,10 +190,6 @@ export function localizeSource(source: SourceReference, locale: Locale): SourceR
       title: m.sourceEfsaAdditivesTitle({}, options),
       organization: m.sourceEfsaOrganization({}, options),
     },
-    'efsa-e171': {
-      title: m.sourceEfsaE171Title({}, options),
-      organization: m.sourceEfsaOrganization({}, options),
-    },
     'who-food-additives': {
       title: m.sourceWhoTitle({}, options),
       organization: m.sourceWhoOrganization({}, options),
@@ -195,10 +197,6 @@ export function localizeSource(source: SourceReference, locale: Locale): SourceR
     'wikipedia-e-number': {
       title: m.sourceWikipediaTitle({}, options),
       organization: m.sourceWikipediaOrganization({}, options),
-    },
-    'chat-report': {
-      title: m.sourceResearchTitle({}, options),
-      organization: m.sourceResearchOrganization({}, options),
     },
   }
 
