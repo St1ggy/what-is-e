@@ -1,0 +1,2089 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-27",
+  "source": {
+    "organization": "European Commission",
+    "portalPage": "https://ec.europa.eu/food/food-feed-portal/screen/food-additives/search",
+    "collectionUrl": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items?foodDomain=fin&authorisationType=fad_auth",
+    "detailUrlTemplate": "https://ec.europa.eu/food/food-feed-portal/backend/api/policy-items/{policyItemCode}",
+    "foodDomain": "fin",
+    "authorisationType": "fad_auth",
+    "authorizationInterpretation": "Entries come from the EC Portal fad_auth collection. Explicit EUR-Lex withdrawals below take precedence and are excluded from entries."
+  },
+  "withdrawals": [
+    {
+      "code": "E171",
+      "sourceId": "eu-2022-63-e171",
+      "summary": "Removed from the Union list by Regulation (EU) 2022/63."
+    },
+    {
+      "code": "E203",
+      "sourceId": "eu-2018-98-e203",
+      "summary": "Removed from the Union list by Regulation (EU) 2018/98."
+    }
+  ],
+  "entries": [
+    {
+      "code": "E100",
+      "displayNames": ["Curcumin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2985"],
+      "lastModifiedAt": "2022-12-21T08:09:03.000+00:00"
+    },
+    {
+      "code": "E101",
+      "displayNames": ["Riboflavins"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2986"],
+      "lastModifiedAt": "2022-12-21T08:09:04.000+00:00"
+    },
+    {
+      "code": "E102",
+      "displayNames": ["Tartrazine"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2987"],
+      "lastModifiedAt": "2022-12-21T08:09:05.000+00:00"
+    },
+    {
+      "code": "E104",
+      "displayNames": ["Quinoline Yellow"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2988"],
+      "lastModifiedAt": "2022-12-21T08:09:05.000+00:00"
+    },
+    {
+      "code": "E110",
+      "displayNames": ["Sunset Yellow FCF/Orange Yellow S"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2989"],
+      "lastModifiedAt": "2022-12-21T08:09:07.000+00:00"
+    },
+    {
+      "code": "E120",
+      "displayNames": ["<p>Carminic acid, Carmine</p>"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2990"],
+      "lastModifiedAt": "2022-12-21T08:09:08.000+00:00"
+    },
+    {
+      "code": "E122",
+      "displayNames": ["Azorubine, Carmoisine"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2991"],
+      "lastModifiedAt": "2022-12-21T08:09:10.000+00:00"
+    },
+    {
+      "code": "E123",
+      "displayNames": ["Amaranth"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2992"],
+      "lastModifiedAt": "2022-12-21T08:09:10.000+00:00"
+    },
+    {
+      "code": "E124",
+      "displayNames": ["Ponceau 4R, Cochineal Red A"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2993"],
+      "lastModifiedAt": "2022-12-21T08:09:10.000+00:00"
+    },
+    {
+      "code": "E127",
+      "displayNames": ["Erythrosine"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2994"],
+      "lastModifiedAt": "2022-12-21T08:09:12.000+00:00"
+    },
+    {
+      "code": "E129",
+      "displayNames": ["Allura Red AC"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2995"],
+      "lastModifiedAt": "2022-12-21T08:09:12.000+00:00"
+    },
+    {
+      "code": "E131",
+      "displayNames": ["Patent Blue V"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2996"],
+      "lastModifiedAt": "2022-12-21T08:09:13.000+00:00"
+    },
+    {
+      "code": "E132",
+      "displayNames": ["Indigotine, Indigo carmine"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2997"],
+      "lastModifiedAt": "2022-12-21T08:09:13.000+00:00"
+    },
+    {
+      "code": "E133",
+      "displayNames": ["Brilliant Blue FCF"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2998"],
+      "lastModifiedAt": "2022-12-21T08:09:13.000+00:00"
+    },
+    {
+      "code": "E140",
+      "displayNames": ["Chlorophylls and Chlorophyllins"],
+      "policyItemCodes": ["POL-FAD-IMPORT-2999"],
+      "lastModifiedAt": "2022-12-21T08:09:13.000+00:00"
+    },
+    {
+      "code": "E141",
+      "displayNames": ["Copper complexes of chlorophylls and chlorophyllins"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3000"],
+      "lastModifiedAt": "2022-12-21T08:09:14.000+00:00"
+    },
+    {
+      "code": "E142",
+      "displayNames": ["Green S"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3001"],
+      "lastModifiedAt": "2022-12-21T08:09:14.000+00:00"
+    },
+    {
+      "code": "E150a",
+      "displayNames": ["Plain caramel"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3002"],
+      "lastModifiedAt": "2022-12-21T08:09:15.000+00:00"
+    },
+    {
+      "code": "E150b",
+      "displayNames": ["Caustic sulphite caramel"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3004"],
+      "lastModifiedAt": "2022-12-21T08:09:16.000+00:00"
+    },
+    {
+      "code": "E150c",
+      "displayNames": ["Ammonia caramel"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3005"],
+      "lastModifiedAt": "2022-12-21T08:09:16.000+00:00"
+    },
+    {
+      "code": "E150d",
+      "displayNames": ["Sulphite ammonia caramel"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3006"],
+      "lastModifiedAt": "2022-12-21T08:09:16.000+00:00"
+    },
+    {
+      "code": "E151",
+      "displayNames": ["Brilliant Black PN"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3007"],
+      "lastModifiedAt": "2022-12-21T08:09:16.000+00:00"
+    },
+    {
+      "code": "E153",
+      "displayNames": ["Vegetable carbon"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3008"],
+      "lastModifiedAt": "2022-12-21T08:09:16.000+00:00"
+    },
+    {
+      "code": "E155",
+      "displayNames": ["Brown HT"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3009"],
+      "lastModifiedAt": "2022-12-21T08:09:17.000+00:00"
+    },
+    {
+      "code": "E160a",
+      "displayNames": ["Carotenes"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3010"],
+      "lastModifiedAt": "2022-12-21T08:09:17.000+00:00"
+    },
+    {
+      "code": "E160b",
+      "displayNames": [
+        "Annatto, Bixin, Norbixin/Deleted from the Union List of authorised additives",
+        "Annatto bixin",
+        "Annatto norbixin"
+      ],
+      "policyItemCodes": ["POL-FAD-IMPORT-3011", "POL-FAD-IMPORT-3379", "POL-FAD-IMPORT-3380"],
+      "lastModifiedAt": "2022-12-21T08:11:30.000+00:00"
+    },
+    {
+      "code": "E160c",
+      "displayNames": ["Paprika extract, capsanthin, capsorubin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3012"],
+      "lastModifiedAt": "2022-12-21T08:09:18.000+00:00"
+    },
+    {
+      "code": "E160d",
+      "displayNames": ["Lycopene"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3013"],
+      "lastModifiedAt": "2022-12-21T08:09:19.000+00:00"
+    },
+    {
+      "code": "E160e",
+      "displayNames": ["Beta-apo-8'-carotenal (C 30)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3014"],
+      "lastModifiedAt": "2022-12-21T08:09:20.000+00:00"
+    },
+    {
+      "code": "E161b",
+      "displayNames": ["Lutein"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3015"],
+      "lastModifiedAt": "2022-12-21T08:09:21.000+00:00"
+    },
+    {
+      "code": "E161g",
+      "displayNames": ["Canthaxanthin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3016"],
+      "lastModifiedAt": "2022-12-21T08:09:21.000+00:00"
+    },
+    {
+      "code": "E162",
+      "displayNames": ["Beetroot Red, betanin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3017"],
+      "lastModifiedAt": "2022-12-21T08:09:21.000+00:00"
+    },
+    {
+      "code": "E163",
+      "displayNames": ["Anthocyanins"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3018"],
+      "lastModifiedAt": "2022-12-21T08:09:22.000+00:00"
+    },
+    {
+      "code": "E170",
+      "displayNames": ["Calcium carbonate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3019"],
+      "lastModifiedAt": "2022-12-21T08:09:22.000+00:00"
+    },
+    {
+      "code": "E172",
+      "displayNames": ["Iron oxides and hydroxides"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3021"],
+      "lastModifiedAt": "2022-12-21T08:09:23.000+00:00"
+    },
+    {
+      "code": "E173",
+      "displayNames": ["Aluminium"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3022"],
+      "lastModifiedAt": "2022-12-21T08:09:23.000+00:00"
+    },
+    {
+      "code": "E174",
+      "displayNames": ["Silver"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3023"],
+      "lastModifiedAt": "2022-12-21T08:09:23.000+00:00"
+    },
+    {
+      "code": "E175",
+      "displayNames": ["Gold"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3024"],
+      "lastModifiedAt": "2022-12-21T08:09:23.000+00:00"
+    },
+    {
+      "code": "E180",
+      "displayNames": ["Litholrubine BK"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3025"],
+      "lastModifiedAt": "2022-12-21T08:09:24.000+00:00"
+    },
+    {
+      "code": "E200",
+      "displayNames": ["Sorbic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3026"],
+      "lastModifiedAt": "2022-12-21T08:09:24.000+00:00"
+    },
+    {
+      "code": "E202",
+      "displayNames": ["Potassium sorbate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3031"],
+      "lastModifiedAt": "2022-12-21T08:09:28.000+00:00"
+    },
+    {
+      "code": "E210",
+      "displayNames": ["Benzoic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3033"],
+      "lastModifiedAt": "2022-12-21T08:09:28.000+00:00"
+    },
+    {
+      "code": "E211",
+      "displayNames": ["Sodium benzoate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3035"],
+      "lastModifiedAt": "2022-12-21T08:09:29.000+00:00"
+    },
+    {
+      "code": "E212",
+      "displayNames": ["Potassium benzoate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3036"],
+      "lastModifiedAt": "2022-12-21T08:09:29.000+00:00"
+    },
+    {
+      "code": "E213",
+      "displayNames": ["Calcium benzoate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3037"],
+      "lastModifiedAt": "2022-12-21T08:09:29.000+00:00"
+    },
+    {
+      "code": "E214",
+      "displayNames": ["Ethyl-p-hydroxybenzoate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3038"],
+      "lastModifiedAt": "2022-12-21T08:09:29.000+00:00"
+    },
+    {
+      "code": "E215",
+      "displayNames": ["Sodium ethyl p-hydroxybenzoate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3040"],
+      "lastModifiedAt": "2022-12-21T08:09:30.000+00:00"
+    },
+    {
+      "code": "E218",
+      "displayNames": ["Methyl p-hydroxybenzoate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3041"],
+      "lastModifiedAt": "2022-12-21T08:09:30.000+00:00"
+    },
+    {
+      "code": "E219",
+      "displayNames": ["Sodium methyl p-hydroxybenzoate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3042"],
+      "lastModifiedAt": "2022-12-21T08:09:30.000+00:00"
+    },
+    {
+      "code": "E220",
+      "displayNames": ["Sulphur dioxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3043"],
+      "lastModifiedAt": "2022-12-21T08:09:30.000+00:00"
+    },
+    {
+      "code": "E221",
+      "displayNames": ["Sodium sulphite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3045"],
+      "lastModifiedAt": "2022-12-21T08:09:32.000+00:00"
+    },
+    {
+      "code": "E222",
+      "displayNames": ["Sodium hydrogen sulphite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3046"],
+      "lastModifiedAt": "2022-12-21T08:09:32.000+00:00"
+    },
+    {
+      "code": "E223",
+      "displayNames": ["Sodium metabisulphite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3047"],
+      "lastModifiedAt": "2022-12-21T08:09:33.000+00:00"
+    },
+    {
+      "code": "E224",
+      "displayNames": ["Potassium metabisulphite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3048"],
+      "lastModifiedAt": "2022-12-21T08:09:33.000+00:00"
+    },
+    {
+      "code": "E226",
+      "displayNames": ["Calcium sulphite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3049"],
+      "lastModifiedAt": "2022-12-21T08:09:33.000+00:00"
+    },
+    {
+      "code": "E227",
+      "displayNames": ["Calcium hydrogen sulphite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3050"],
+      "lastModifiedAt": "2022-12-21T08:09:33.000+00:00"
+    },
+    {
+      "code": "E228",
+      "displayNames": ["Potassium hydrogen sulphite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3051"],
+      "lastModifiedAt": "2022-12-21T08:09:33.000+00:00"
+    },
+    {
+      "code": "E234",
+      "displayNames": ["Nisin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3052"],
+      "lastModifiedAt": "2022-12-21T08:09:33.000+00:00"
+    },
+    {
+      "code": "E235",
+      "displayNames": ["Natamycin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3053"],
+      "lastModifiedAt": "2022-12-21T08:09:33.000+00:00"
+    },
+    {
+      "code": "E239",
+      "displayNames": ["Hexamethylene tetramine"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3054"],
+      "lastModifiedAt": "2022-12-21T08:09:34.000+00:00"
+    },
+    {
+      "code": "E242",
+      "displayNames": ["Dimethyl dicarbonate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3055"],
+      "lastModifiedAt": "2022-12-21T08:09:34.000+00:00"
+    },
+    {
+      "code": "E243",
+      "displayNames": ["Ethyl lauroyl arginate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3349"],
+      "lastModifiedAt": "2022-12-21T08:11:24.000+00:00"
+    },
+    {
+      "code": "E246",
+      "displayNames": ["Glycolipids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3376"],
+      "lastModifiedAt": "2022-12-21T08:11:28.000+00:00"
+    },
+    {
+      "code": "E249",
+      "displayNames": ["Potassium nitrite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3056"],
+      "lastModifiedAt": "2022-12-21T08:09:34.000+00:00"
+    },
+    {
+      "code": "E250",
+      "displayNames": ["Sodium nitrite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3058"],
+      "lastModifiedAt": "2022-12-21T08:09:35.000+00:00"
+    },
+    {
+      "code": "E251",
+      "displayNames": ["Sodium nitrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3059"],
+      "lastModifiedAt": "2022-12-21T08:09:35.000+00:00"
+    },
+    {
+      "code": "E252",
+      "displayNames": ["Potassium nitrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3061"],
+      "lastModifiedAt": "2022-12-21T08:09:36.000+00:00"
+    },
+    {
+      "code": "E260",
+      "displayNames": ["Acetic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3062"],
+      "lastModifiedAt": "2022-12-21T08:09:36.000+00:00"
+    },
+    {
+      "code": "E261",
+      "displayNames": ["Potassium acetates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3063"],
+      "lastModifiedAt": "2022-12-21T08:09:36.000+00:00"
+    },
+    {
+      "code": "E262",
+      "displayNames": ["Sodium acetates", "Sodium diacetate "],
+      "policyItemCodes": ["POL-FAD-IMPORT-3064", "POL-FAD-IMPORT-3382"],
+      "lastModifiedAt": "2022-12-21T08:11:32.000+00:00"
+    },
+    {
+      "code": "E263",
+      "displayNames": ["Calcium acetate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3065"],
+      "lastModifiedAt": "2022-12-21T08:09:37.000+00:00"
+    },
+    {
+      "code": "E267",
+      "displayNames": ["Buffered vinegar"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3385"],
+      "lastModifiedAt": "2022-12-21T08:11:32.000+00:00"
+    },
+    {
+      "code": "E270",
+      "displayNames": ["Lactic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3066"],
+      "lastModifiedAt": "2022-12-21T08:09:37.000+00:00"
+    },
+    {
+      "code": "E280",
+      "displayNames": ["Propionic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3067"],
+      "lastModifiedAt": "2022-12-21T08:09:38.000+00:00"
+    },
+    {
+      "code": "E281",
+      "displayNames": ["Sodium propionate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3069"],
+      "lastModifiedAt": "2022-12-21T08:09:39.000+00:00"
+    },
+    {
+      "code": "E282",
+      "displayNames": ["Calcium propionate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3070"],
+      "lastModifiedAt": "2022-12-21T08:09:39.000+00:00"
+    },
+    {
+      "code": "E283",
+      "displayNames": ["Potassium propionate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3071"],
+      "lastModifiedAt": "2022-12-21T08:09:39.000+00:00"
+    },
+    {
+      "code": "E284",
+      "displayNames": ["Boric acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3072"],
+      "lastModifiedAt": "2022-12-21T08:09:39.000+00:00"
+    },
+    {
+      "code": "E285",
+      "displayNames": ["Sodium tetraborate (borax)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3073"],
+      "lastModifiedAt": "2022-12-21T08:09:39.000+00:00"
+    },
+    {
+      "code": "E290",
+      "displayNames": ["Carbon dioxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3074"],
+      "lastModifiedAt": "2022-12-21T08:09:39.000+00:00"
+    },
+    {
+      "code": "E296",
+      "displayNames": ["Malic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3075"],
+      "lastModifiedAt": "2022-12-21T08:09:39.000+00:00"
+    },
+    {
+      "code": "E297",
+      "displayNames": ["Fumaric acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3076"],
+      "lastModifiedAt": "2022-12-21T08:09:40.000+00:00"
+    },
+    {
+      "code": "E300",
+      "displayNames": ["Ascorbic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3077"],
+      "lastModifiedAt": "2022-12-21T08:09:41.000+00:00"
+    },
+    {
+      "code": "E301",
+      "displayNames": ["Sodium ascorbate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3078"],
+      "lastModifiedAt": "2022-12-21T08:09:42.000+00:00"
+    },
+    {
+      "code": "E302",
+      "displayNames": ["Calcium ascorbate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3079"],
+      "lastModifiedAt": "2022-12-21T08:09:43.000+00:00"
+    },
+    {
+      "code": "E304",
+      "displayNames": ["<p>L-Ascorbyl Palmitate</p>", "Fatty acid esters of ascorbic acid"],
+      "policyItemCodes": ["POL-FAD-16782", "POL-FAD-IMPORT-3080"],
+      "lastModifiedAt": "2026-07-01T09:18:03.130+00:00"
+    },
+    {
+      "code": "E306",
+      "displayNames": ["Tocopherol-rich extract"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3081"],
+      "lastModifiedAt": "2022-12-21T08:09:44.000+00:00"
+    },
+    {
+      "code": "E307",
+      "displayNames": ["Alpha-tocopherol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3082"],
+      "lastModifiedAt": "2022-12-21T08:09:45.000+00:00"
+    },
+    {
+      "code": "E308",
+      "displayNames": ["Gamma-tocopherol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3083"],
+      "lastModifiedAt": "2022-12-21T08:09:45.000+00:00"
+    },
+    {
+      "code": "E309",
+      "displayNames": ["Delta-tocopherol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3084"],
+      "lastModifiedAt": "2022-12-21T08:09:45.000+00:00"
+    },
+    {
+      "code": "E310",
+      "displayNames": ["Propyl gallate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3085"],
+      "lastModifiedAt": "2022-12-21T08:09:46.000+00:00"
+    },
+    {
+      "code": "E311",
+      "displayNames": ["Octyl gallate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3088"],
+      "lastModifiedAt": "2022-12-21T08:09:47.000+00:00"
+    },
+    {
+      "code": "E312",
+      "displayNames": ["Dodecyl gallate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3089"],
+      "lastModifiedAt": "2022-12-21T08:09:47.000+00:00"
+    },
+    {
+      "code": "E315",
+      "displayNames": ["Erythorbic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3090"],
+      "lastModifiedAt": "2022-12-21T08:09:47.000+00:00"
+    },
+    {
+      "code": "E316",
+      "displayNames": ["Sodium erythorbate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3091"],
+      "lastModifiedAt": "2022-12-21T08:09:48.000+00:00"
+    },
+    {
+      "code": "E319",
+      "displayNames": ["Tertiary-butyl hydroquinone (TBHQ)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3092"],
+      "lastModifiedAt": "2022-12-21T08:09:48.000+00:00"
+    },
+    {
+      "code": "E320",
+      "displayNames": ["Butylated hydroxyanisole (BHA)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3093"],
+      "lastModifiedAt": "2022-12-21T08:09:48.000+00:00"
+    },
+    {
+      "code": "E321",
+      "displayNames": ["Butylated hydroxytoluene (BHT)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3094"],
+      "lastModifiedAt": "2022-12-21T08:09:48.000+00:00"
+    },
+    {
+      "code": "E322",
+      "displayNames": ["Lecithins"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3095"],
+      "lastModifiedAt": "2022-12-21T08:09:48.000+00:00"
+    },
+    {
+      "code": "E322a",
+      "displayNames": ["Oat lecithin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3387"],
+      "lastModifiedAt": "2022-12-21T08:11:33.000+00:00"
+    },
+    {
+      "code": "E325",
+      "displayNames": ["Sodium lactate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3096"],
+      "lastModifiedAt": "2022-12-21T08:09:49.000+00:00"
+    },
+    {
+      "code": "E326",
+      "displayNames": ["Potassium lactate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3097"],
+      "lastModifiedAt": "2022-12-21T08:09:49.000+00:00"
+    },
+    {
+      "code": "E327",
+      "displayNames": ["Calcium lactate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3098"],
+      "lastModifiedAt": "2022-12-21T08:09:50.000+00:00"
+    },
+    {
+      "code": "E330",
+      "displayNames": ["Citric acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3099"],
+      "lastModifiedAt": "2022-12-21T08:09:50.000+00:00"
+    },
+    {
+      "code": "E331",
+      "displayNames": ["Sodium citrates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3100"],
+      "lastModifiedAt": "2022-12-21T08:09:52.000+00:00"
+    },
+    {
+      "code": "E332",
+      "displayNames": ["Potassium citrates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3101"],
+      "lastModifiedAt": "2022-12-21T08:09:53.000+00:00"
+    },
+    {
+      "code": "E333",
+      "displayNames": ["Calcium citrates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3102"],
+      "lastModifiedAt": "2022-12-21T08:09:54.000+00:00"
+    },
+    {
+      "code": "E334",
+      "displayNames": ["Tartaric acid (L(+)-)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3103"],
+      "lastModifiedAt": "2022-12-21T08:09:55.000+00:00"
+    },
+    {
+      "code": "E335",
+      "displayNames": ["Sodium tartrates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3104"],
+      "lastModifiedAt": "2022-12-21T08:09:56.000+00:00"
+    },
+    {
+      "code": "E336",
+      "displayNames": ["Potassium tartrates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3105"],
+      "lastModifiedAt": "2022-12-21T08:09:56.000+00:00"
+    },
+    {
+      "code": "E337",
+      "displayNames": ["Sodium potassium tartrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3106"],
+      "lastModifiedAt": "2022-12-21T08:09:57.000+00:00"
+    },
+    {
+      "code": "E338",
+      "displayNames": ["Phosphoric acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3107"],
+      "lastModifiedAt": "2022-12-21T08:09:57.000+00:00"
+    },
+    {
+      "code": "E339",
+      "displayNames": ["Sodium phosphates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3109"],
+      "lastModifiedAt": "2022-12-21T08:10:01.000+00:00"
+    },
+    {
+      "code": "E340",
+      "displayNames": ["Potassium phosphates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3110"],
+      "lastModifiedAt": "2022-12-21T08:10:01.000+00:00"
+    },
+    {
+      "code": "E341",
+      "displayNames": ["Calcium phosphates", "Tricalcium phosphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3111", "POL-FAD-IMPORT-3336"],
+      "lastModifiedAt": "2022-12-21T08:11:19.000+00:00"
+    },
+    {
+      "code": "E343",
+      "displayNames": ["Magnesium phosphates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3112"],
+      "lastModifiedAt": "2022-12-21T08:10:02.000+00:00"
+    },
+    {
+      "code": "E345",
+      "displayNames": ["<p>Trimagnesium dicitrate</p>"],
+      "policyItemCodes": ["POL-FAD-10321"],
+      "lastModifiedAt": "2024-04-04T16:17:24.048+00:00"
+    },
+    {
+      "code": "E350",
+      "displayNames": ["Sodium malates "],
+      "policyItemCodes": ["POL-FAD-IMPORT-3113"],
+      "lastModifiedAt": "2022-12-21T08:10:02.000+00:00"
+    },
+    {
+      "code": "E351",
+      "displayNames": ["Potassium malate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3114"],
+      "lastModifiedAt": "2022-12-21T08:10:02.000+00:00"
+    },
+    {
+      "code": "E352",
+      "displayNames": ["Calcium malates "],
+      "policyItemCodes": ["POL-FAD-IMPORT-3115"],
+      "lastModifiedAt": "2022-12-21T08:10:02.000+00:00"
+    },
+    {
+      "code": "E353",
+      "displayNames": ["Metatartaric acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3116"],
+      "lastModifiedAt": "2022-12-21T08:10:02.000+00:00"
+    },
+    {
+      "code": "E354",
+      "displayNames": ["Calcium tartrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3117"],
+      "lastModifiedAt": "2022-12-21T08:10:03.000+00:00"
+    },
+    {
+      "code": "E355",
+      "displayNames": ["Adipic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3118"],
+      "lastModifiedAt": "2022-12-21T08:10:03.000+00:00"
+    },
+    {
+      "code": "E356",
+      "displayNames": ["Sodium adipate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3120"],
+      "lastModifiedAt": "2022-12-21T08:10:03.000+00:00"
+    },
+    {
+      "code": "E357",
+      "displayNames": ["Potassium adipate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3121"],
+      "lastModifiedAt": "2022-12-21T08:10:03.000+00:00"
+    },
+    {
+      "code": "E363",
+      "displayNames": ["Succinic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3122"],
+      "lastModifiedAt": "2022-12-21T08:10:03.000+00:00"
+    },
+    {
+      "code": "E380",
+      "displayNames": ["Triammonium citrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3123"],
+      "lastModifiedAt": "2022-12-21T08:10:04.000+00:00"
+    },
+    {
+      "code": "E385",
+      "displayNames": ["Calcium disodium ethylene diamine tetra-acetate (Calcium disodium EDTA)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3124"],
+      "lastModifiedAt": "2022-12-21T08:10:04.000+00:00"
+    },
+    {
+      "code": "E392",
+      "displayNames": ["Extracts of rosemary"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3125"],
+      "lastModifiedAt": "2022-12-21T08:10:04.000+00:00"
+    },
+    {
+      "code": "E400",
+      "displayNames": ["Alginic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3126"],
+      "lastModifiedAt": "2022-12-21T08:10:06.000+00:00"
+    },
+    {
+      "code": "E401",
+      "displayNames": ["Sodium alginate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3128"],
+      "lastModifiedAt": "2022-12-21T08:10:06.000+00:00"
+    },
+    {
+      "code": "E402",
+      "displayNames": ["Potassium alginate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3129"],
+      "lastModifiedAt": "2022-12-21T08:10:07.000+00:00"
+    },
+    {
+      "code": "E403",
+      "displayNames": ["Ammonium alginate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3130"],
+      "lastModifiedAt": "2022-12-21T08:10:07.000+00:00"
+    },
+    {
+      "code": "E404",
+      "displayNames": ["Calcium alginate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3131"],
+      "lastModifiedAt": "2022-12-21T08:10:07.000+00:00"
+    },
+    {
+      "code": "E405",
+      "displayNames": ["Propane-1, 2-diol alginate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3132"],
+      "lastModifiedAt": "2022-12-21T08:10:07.000+00:00"
+    },
+    {
+      "code": "E406",
+      "displayNames": ["Agar"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3133"],
+      "lastModifiedAt": "2022-12-21T08:10:09.000+00:00"
+    },
+    {
+      "code": "E407",
+      "displayNames": ["Carrageenan"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3134"],
+      "lastModifiedAt": "2022-12-21T08:10:09.000+00:00"
+    },
+    {
+      "code": "E407a",
+      "displayNames": ["Processed euchema seaweed"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3135"],
+      "lastModifiedAt": "2022-12-21T08:10:10.000+00:00"
+    },
+    {
+      "code": "E410",
+      "displayNames": ["Locust bean gum"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3136"],
+      "lastModifiedAt": "2022-12-21T08:10:10.000+00:00"
+    },
+    {
+      "code": "E412",
+      "displayNames": ["Guar gum"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3137"],
+      "lastModifiedAt": "2022-12-21T08:10:11.000+00:00"
+    },
+    {
+      "code": "E413",
+      "displayNames": ["Tragacanth"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3138"],
+      "lastModifiedAt": "2022-12-21T08:10:12.000+00:00"
+    },
+    {
+      "code": "E414",
+      "displayNames": ["Gum arabic (acacia gum)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3139"],
+      "lastModifiedAt": "2022-12-21T08:10:12.000+00:00"
+    },
+    {
+      "code": "E415",
+      "displayNames": ["Xanthan gum"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3140"],
+      "lastModifiedAt": "2022-12-21T08:10:12.000+00:00"
+    },
+    {
+      "code": "E416",
+      "displayNames": ["Karaya gum"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3141"],
+      "lastModifiedAt": "2022-12-21T08:10:13.000+00:00"
+    },
+    {
+      "code": "E417",
+      "displayNames": ["Tara gum"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3142"],
+      "lastModifiedAt": "2022-12-21T08:10:14.000+00:00"
+    },
+    {
+      "code": "E418",
+      "displayNames": ["Gellan gum"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3143"],
+      "lastModifiedAt": "2022-12-21T08:10:14.000+00:00"
+    },
+    {
+      "code": "E420",
+      "displayNames": ["Sorbitols"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3144"],
+      "lastModifiedAt": "2022-12-21T08:10:14.000+00:00"
+    },
+    {
+      "code": "E421",
+      "displayNames": ["Mannitol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3145"],
+      "lastModifiedAt": "2022-12-21T08:10:14.000+00:00"
+    },
+    {
+      "code": "E422",
+      "displayNames": ["Glycerol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3146"],
+      "lastModifiedAt": "2022-12-21T08:10:14.000+00:00"
+    },
+    {
+      "code": "E423",
+      "displayNames": ["Octenyl succinic acid modified gum arabic"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3337"],
+      "lastModifiedAt": "2022-12-21T08:11:19.000+00:00"
+    },
+    {
+      "code": "E425",
+      "displayNames": ["Konjac"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3147"],
+      "lastModifiedAt": "2022-12-21T08:10:15.000+00:00"
+    },
+    {
+      "code": "E426",
+      "displayNames": ["Soybean hemicellulose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3148"],
+      "lastModifiedAt": "2022-12-21T08:10:15.000+00:00"
+    },
+    {
+      "code": "E427",
+      "displayNames": ["Cassia gum"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3149"],
+      "lastModifiedAt": "2022-12-21T08:10:15.000+00:00"
+    },
+    {
+      "code": "E431",
+      "displayNames": ["Polyoxyethylene (40) stearate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3150"],
+      "lastModifiedAt": "2022-12-21T08:10:16.000+00:00"
+    },
+    {
+      "code": "E432",
+      "displayNames": ["Polyoxyethylene sorbitan monolaurate (polysorbate 20)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3151"],
+      "lastModifiedAt": "2022-12-21T08:10:16.000+00:00"
+    },
+    {
+      "code": "E433",
+      "displayNames": ["Polyoxyethylene sorbitan monooleate (polysorbate 80)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3153"],
+      "lastModifiedAt": "2022-12-21T08:10:17.000+00:00"
+    },
+    {
+      "code": "E434",
+      "displayNames": ["Polyoxyethylene sorbitan monopalmitate (polysorbate 40)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3154"],
+      "lastModifiedAt": "2022-12-21T08:10:17.000+00:00"
+    },
+    {
+      "code": "E435",
+      "displayNames": ["Polyoxyethylene sorbitan monostearate (polysorbate 60)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3155"],
+      "lastModifiedAt": "2022-12-21T08:10:17.000+00:00"
+    },
+    {
+      "code": "E436",
+      "displayNames": ["Polyoxyethylene sorbitan tristearate (polysorbate 65)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3156"],
+      "lastModifiedAt": "2022-12-21T08:10:17.000+00:00"
+    },
+    {
+      "code": "E440",
+      "displayNames": ["Pectins"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3157"],
+      "lastModifiedAt": "2022-12-21T08:10:17.000+00:00"
+    },
+    {
+      "code": "E442",
+      "displayNames": ["Ammonium phosphatides"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3158"],
+      "lastModifiedAt": "2022-12-21T08:10:18.000+00:00"
+    },
+    {
+      "code": "E444",
+      "displayNames": ["Sucrose acetate isobutyrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3159"],
+      "lastModifiedAt": "2022-12-21T08:10:19.000+00:00"
+    },
+    {
+      "code": "E445",
+      "displayNames": ["Glycerol esters of wood rosins"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3160"],
+      "lastModifiedAt": "2022-12-21T08:10:19.000+00:00"
+    },
+    {
+      "code": "E450",
+      "displayNames": ["Diphosphates", "Magnesium dihydrogen diphosphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3161", "POL-FAD-IMPORT-3360"],
+      "lastModifiedAt": "2022-12-21T08:11:26.000+00:00"
+    },
+    {
+      "code": "E451",
+      "displayNames": ["Triphosphates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3162"],
+      "lastModifiedAt": "2022-12-21T08:10:19.000+00:00"
+    },
+    {
+      "code": "E452",
+      "displayNames": ["Polyphosphates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3163"],
+      "lastModifiedAt": "2022-12-21T08:10:20.000+00:00"
+    },
+    {
+      "code": "E456",
+      "displayNames": ["Potassium Polyaspartate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3366"],
+      "lastModifiedAt": "2022-12-21T08:11:27.000+00:00"
+    },
+    {
+      "code": "E459",
+      "displayNames": ["Beta-cyclodextrin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3164"],
+      "lastModifiedAt": "2022-12-21T08:10:20.000+00:00"
+    },
+    {
+      "code": "E460",
+      "displayNames": ["<p>Cellulose</p>", "<p>Microcrystalline cellulose, Cellulose gel</p>", "Powdered cellulose"],
+      "policyItemCodes": ["POL-FAD-16781", "POL-FAD-IMPORT-3165", "POL-FAD-IMPORT-3365"],
+      "lastModifiedAt": "2026-07-01T08:11:42.014+00:00"
+    },
+    {
+      "code": "E461",
+      "displayNames": ["Methyl cellulose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3166"],
+      "lastModifiedAt": "2022-12-21T08:10:21.000+00:00"
+    },
+    {
+      "code": "E462",
+      "displayNames": ["Ethyl cellulose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3167"],
+      "lastModifiedAt": "2022-12-21T08:10:21.000+00:00"
+    },
+    {
+      "code": "E463",
+      "displayNames": ["Hydroxypropyl cellulose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3168"],
+      "lastModifiedAt": "2022-12-21T08:10:21.000+00:00"
+    },
+    {
+      "code": "E463a",
+      "displayNames": ["Low-substituted hydroxypropyl cellulose (L-HPC)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3374"],
+      "lastModifiedAt": "2022-12-21T08:11:28.000+00:00"
+    },
+    {
+      "code": "E464",
+      "displayNames": ["Hydroxypropyl methyl cellulose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3169"],
+      "lastModifiedAt": "2022-12-21T08:10:21.000+00:00"
+    },
+    {
+      "code": "E465",
+      "displayNames": ["Ethyl methyl cellulose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3170"],
+      "lastModifiedAt": "2022-12-21T08:10:22.000+00:00"
+    },
+    {
+      "code": "E466",
+      "displayNames": ["Sodium carboxy methyl cellulose, cellulose gum"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3171"],
+      "lastModifiedAt": "2022-12-21T08:10:22.000+00:00"
+    },
+    {
+      "code": "E468",
+      "displayNames": ["Cross-linked sodium carboxy methyl cellulose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3172"],
+      "lastModifiedAt": "2022-12-21T08:10:22.000+00:00"
+    },
+    {
+      "code": "E469",
+      "displayNames": ["Enzymatically hydrolysed carboxy methyl cellulose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3173"],
+      "lastModifiedAt": "2022-12-21T08:10:23.000+00:00"
+    },
+    {
+      "code": "E470a",
+      "displayNames": ["Sodium, potassium and calcium salts of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3174"],
+      "lastModifiedAt": "2022-12-21T08:10:23.000+00:00"
+    },
+    {
+      "code": "E470b",
+      "displayNames": ["Magnesium salts of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3175"],
+      "lastModifiedAt": "2022-12-21T08:10:23.000+00:00"
+    },
+    {
+      "code": "E471",
+      "displayNames": ["Mono-and diglycerides of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3176"],
+      "lastModifiedAt": "2022-12-21T08:10:23.000+00:00"
+    },
+    {
+      "code": "E472a",
+      "displayNames": ["Acetic acid esters of mono- and diglycerides of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3177"],
+      "lastModifiedAt": "2022-12-21T08:10:24.000+00:00"
+    },
+    {
+      "code": "E472b",
+      "displayNames": ["Lactic acid esters of mono- and diglycerides of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3178"],
+      "lastModifiedAt": "2022-12-21T08:10:25.000+00:00"
+    },
+    {
+      "code": "E472c",
+      "displayNames": ["Citric acid esters of mono- and diglycerides of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3179"],
+      "lastModifiedAt": "2022-12-21T08:10:25.000+00:00"
+    },
+    {
+      "code": "E472d",
+      "displayNames": ["Tartaric acid esters of mono- and diglycerides of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3180"],
+      "lastModifiedAt": "2022-12-21T08:10:25.000+00:00"
+    },
+    {
+      "code": "E472e",
+      "displayNames": ["Mono and diacetyl tartaric acid esters of mono- and diglycerides of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3181"],
+      "lastModifiedAt": "2022-12-21T08:10:25.000+00:00"
+    },
+    {
+      "code": "E472f",
+      "displayNames": ["Mixed acetic and tartaric acid esters of mono- and diglycerides  of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3182"],
+      "lastModifiedAt": "2022-12-21T08:10:26.000+00:00"
+    },
+    {
+      "code": "E473",
+      "displayNames": ["Sucrose esters of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3183"],
+      "lastModifiedAt": "2022-12-21T08:10:26.000+00:00"
+    },
+    {
+      "code": "E474",
+      "displayNames": ["Sucroglycerides"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3185"],
+      "lastModifiedAt": "2022-12-21T08:10:28.000+00:00"
+    },
+    {
+      "code": "E475",
+      "displayNames": ["Polyglycerol esters of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3186"],
+      "lastModifiedAt": "2022-12-21T08:10:28.000+00:00"
+    },
+    {
+      "code": "E476",
+      "displayNames": ["Polyglycerol polyricinoleate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3187"],
+      "lastModifiedAt": "2022-12-21T08:10:29.000+00:00"
+    },
+    {
+      "code": "E477",
+      "displayNames": ["Propane-1,2-diol esters of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3188"],
+      "lastModifiedAt": "2022-12-21T08:10:29.000+00:00"
+    },
+    {
+      "code": "E479b",
+      "displayNames": ["Thermally oxidized soya bean oil interacted with mono and diglycerides of fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3189"],
+      "lastModifiedAt": "2022-12-21T08:10:30.000+00:00"
+    },
+    {
+      "code": "E481",
+      "displayNames": ["Sodium stearoyl-2-lactylate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3190"],
+      "lastModifiedAt": "2022-12-21T08:10:30.000+00:00"
+    },
+    {
+      "code": "E482",
+      "displayNames": ["Calcium stearoyl-2-lactylate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3192"],
+      "lastModifiedAt": "2022-12-21T08:10:32.000+00:00"
+    },
+    {
+      "code": "E483",
+      "displayNames": ["Stearyl tartrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3193"],
+      "lastModifiedAt": "2022-12-21T08:10:32.000+00:00"
+    },
+    {
+      "code": "E491",
+      "displayNames": ["Sorbitan monostearate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3194"],
+      "lastModifiedAt": "2022-12-21T08:10:32.000+00:00"
+    },
+    {
+      "code": "E492",
+      "displayNames": ["Sorbitan tristearate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3196"],
+      "lastModifiedAt": "2022-12-21T08:10:33.000+00:00"
+    },
+    {
+      "code": "E493",
+      "displayNames": ["Sorbitan monolaurate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3197"],
+      "lastModifiedAt": "2022-12-21T08:10:33.000+00:00"
+    },
+    {
+      "code": "E494",
+      "displayNames": ["Sorbitan monooleate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3198"],
+      "lastModifiedAt": "2022-12-21T08:10:34.000+00:00"
+    },
+    {
+      "code": "E495",
+      "displayNames": ["Sorbitan monopalmitate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3199"],
+      "lastModifiedAt": "2022-12-21T08:10:34.000+00:00"
+    },
+    {
+      "code": "E499",
+      "displayNames": ["Stigmasterol-rich plant sterols"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3342"],
+      "lastModifiedAt": "2022-12-21T08:11:21.000+00:00"
+    },
+    {
+      "code": "E500",
+      "displayNames": ["Sodium carbonates", "Sodium hydrogenate carbonate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3200", "POL-FAD-IMPORT-3361"],
+      "lastModifiedAt": "2022-12-21T08:11:26.000+00:00"
+    },
+    {
+      "code": "E501",
+      "displayNames": ["Potassium carbonate", "Potassium hydrogen carbonate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3202", "POL-FAD-IMPORT-3362"],
+      "lastModifiedAt": "2022-12-21T08:11:26.000+00:00"
+    },
+    {
+      "code": "E503",
+      "displayNames": ["Ammonium carbonates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3203"],
+      "lastModifiedAt": "2022-12-21T08:10:35.000+00:00"
+    },
+    {
+      "code": "E504",
+      "displayNames": ["Magnesium carbonates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3204"],
+      "lastModifiedAt": "2022-12-21T08:10:35.000+00:00"
+    },
+    {
+      "code": "E507",
+      "displayNames": ["Hydrochloric acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3205"],
+      "lastModifiedAt": "2022-12-21T08:10:36.000+00:00"
+    },
+    {
+      "code": "E508",
+      "displayNames": ["Potassium chloride"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3206"],
+      "lastModifiedAt": "2022-12-21T08:10:36.000+00:00"
+    },
+    {
+      "code": "E509",
+      "displayNames": ["Calcium chloride"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3207"],
+      "lastModifiedAt": "2022-12-21T08:10:36.000+00:00"
+    },
+    {
+      "code": "E511",
+      "displayNames": ["Magnesium chloride"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3208"],
+      "lastModifiedAt": "2022-12-21T08:10:37.000+00:00"
+    },
+    {
+      "code": "E512",
+      "displayNames": ["Stannous chloride"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3209"],
+      "lastModifiedAt": "2022-12-21T08:10:37.000+00:00"
+    },
+    {
+      "code": "E513",
+      "displayNames": ["Sulphuric acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3210"],
+      "lastModifiedAt": "2022-12-21T08:10:37.000+00:00"
+    },
+    {
+      "code": "E514",
+      "displayNames": ["Sodium sulphates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3211"],
+      "lastModifiedAt": "2022-12-21T08:10:37.000+00:00"
+    },
+    {
+      "code": "E515",
+      "displayNames": ["Potassium sulphates"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3212"],
+      "lastModifiedAt": "2022-12-21T08:10:37.000+00:00"
+    },
+    {
+      "code": "E516",
+      "displayNames": ["Calcium sulphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3213"],
+      "lastModifiedAt": "2022-12-21T08:10:37.000+00:00"
+    },
+    {
+      "code": "E517",
+      "displayNames": ["Ammonium sulphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3214"],
+      "lastModifiedAt": "2022-12-21T08:10:37.000+00:00"
+    },
+    {
+      "code": "E520",
+      "displayNames": ["Aluminium sulphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3215"],
+      "lastModifiedAt": "2022-12-21T08:10:37.000+00:00"
+    },
+    {
+      "code": "E521",
+      "displayNames": ["Aluminium sodium sulphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3217"],
+      "lastModifiedAt": "2022-12-21T08:10:38.000+00:00"
+    },
+    {
+      "code": "E522",
+      "displayNames": ["Aluminium potassium sulphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3218"],
+      "lastModifiedAt": "2022-12-21T08:10:38.000+00:00"
+    },
+    {
+      "code": "E523",
+      "displayNames": ["Aluminium ammonium sulphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3219"],
+      "lastModifiedAt": "2022-12-21T08:10:38.000+00:00"
+    },
+    {
+      "code": "E524",
+      "displayNames": ["Sodium hydroxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3220"],
+      "lastModifiedAt": "2022-12-21T08:10:38.000+00:00"
+    },
+    {
+      "code": "E525",
+      "displayNames": ["Potassium hydroxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3222"],
+      "lastModifiedAt": "2022-12-21T08:10:38.000+00:00"
+    },
+    {
+      "code": "E526",
+      "displayNames": ["Calcium hydroxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3223"],
+      "lastModifiedAt": "2022-12-21T08:10:39.000+00:00"
+    },
+    {
+      "code": "E527",
+      "displayNames": ["Ammonium hydroxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3224"],
+      "lastModifiedAt": "2022-12-21T08:10:39.000+00:00"
+    },
+    {
+      "code": "E528",
+      "displayNames": ["Magnesium hydroxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3225"],
+      "lastModifiedAt": "2022-12-21T08:10:39.000+00:00"
+    },
+    {
+      "code": "E529",
+      "displayNames": ["Calcium oxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3226"],
+      "lastModifiedAt": "2022-12-21T08:10:39.000+00:00"
+    },
+    {
+      "code": "E530",
+      "displayNames": ["Magnesium oxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3227"],
+      "lastModifiedAt": "2022-12-21T08:10:39.000+00:00"
+    },
+    {
+      "code": "E534",
+      "displayNames": ["Iron (III) meso-Tartrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3340"],
+      "lastModifiedAt": "2022-12-21T08:11:20.000+00:00"
+    },
+    {
+      "code": "E535",
+      "displayNames": ["Sodium ferrocyanide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3228"],
+      "lastModifiedAt": "2022-12-21T08:10:40.000+00:00"
+    },
+    {
+      "code": "E536",
+      "displayNames": ["Potassium ferrocyanide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3230"],
+      "lastModifiedAt": "2022-12-21T08:10:40.000+00:00"
+    },
+    {
+      "code": "E538",
+      "displayNames": ["Calcium ferrocyanide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3231"],
+      "lastModifiedAt": "2022-12-21T08:10:40.000+00:00"
+    },
+    {
+      "code": "E541",
+      "displayNames": ["Sodium aluminium phosphate acidic"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3232"],
+      "lastModifiedAt": "2022-12-21T08:10:40.000+00:00"
+    },
+    {
+      "code": "E551",
+      "displayNames": ["Silicon dioxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3233"],
+      "lastModifiedAt": "2022-12-21T08:10:40.000+00:00"
+    },
+    {
+      "code": "E552",
+      "displayNames": ["Calcium silicate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3235"],
+      "lastModifiedAt": "2022-12-21T08:10:40.000+00:00"
+    },
+    {
+      "code": "E553a",
+      "displayNames": ["Magnesium silicate "],
+      "policyItemCodes": ["POL-FAD-IMPORT-3236"],
+      "lastModifiedAt": "2022-12-21T08:10:41.000+00:00"
+    },
+    {
+      "code": "E553b",
+      "displayNames": ["Talc"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3237"],
+      "lastModifiedAt": "2022-12-21T08:10:41.000+00:00"
+    },
+    {
+      "code": "E554",
+      "displayNames": ["Sodium aluminium silicate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3238"],
+      "lastModifiedAt": "2022-12-21T08:10:41.000+00:00"
+    },
+    {
+      "code": "E555",
+      "displayNames": ["Potassium aluminium silicate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3239"],
+      "lastModifiedAt": "2022-12-21T08:10:41.000+00:00"
+    },
+    {
+      "code": "E556",
+      "displayNames": ["Calcium aluminium silicate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3240"],
+      "lastModifiedAt": "2022-12-21T08:10:41.000+00:00"
+    },
+    {
+      "code": "E558",
+      "displayNames": ["Bentonite"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3241"],
+      "lastModifiedAt": "2022-12-21T08:10:41.000+00:00"
+    },
+    {
+      "code": "E559",
+      "displayNames": ["Aluminium silicate (Kaolin)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3242"],
+      "lastModifiedAt": "2022-12-21T08:10:41.000+00:00"
+    },
+    {
+      "code": "E570",
+      "displayNames": ["Fatty acids"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3243"],
+      "lastModifiedAt": "2022-12-21T08:10:42.000+00:00"
+    },
+    {
+      "code": "E574",
+      "displayNames": ["Gluconic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3244"],
+      "lastModifiedAt": "2022-12-21T08:10:42.000+00:00"
+    },
+    {
+      "code": "E575",
+      "displayNames": ["Glucono-delta-lactone"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3245"],
+      "lastModifiedAt": "2022-12-21T08:10:42.000+00:00"
+    },
+    {
+      "code": "E576",
+      "displayNames": ["Sodium gluconate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3246"],
+      "lastModifiedAt": "2022-12-21T08:10:42.000+00:00"
+    },
+    {
+      "code": "E577",
+      "displayNames": ["Potassium gluconate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3247"],
+      "lastModifiedAt": "2022-12-21T08:10:43.000+00:00"
+    },
+    {
+      "code": "E578",
+      "displayNames": ["Calcium gluconate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3248"],
+      "lastModifiedAt": "2022-12-21T08:10:43.000+00:00"
+    },
+    {
+      "code": "E579",
+      "displayNames": ["Ferrous gluconate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3249"],
+      "lastModifiedAt": "2022-12-21T08:10:43.000+00:00"
+    },
+    {
+      "code": "E585",
+      "displayNames": ["Ferrous lactate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3250"],
+      "lastModifiedAt": "2022-12-21T08:10:43.000+00:00"
+    },
+    {
+      "code": "E586",
+      "displayNames": ["4-Hexylresorcinol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3251"],
+      "lastModifiedAt": "2022-12-21T08:10:43.000+00:00"
+    },
+    {
+      "code": "E620",
+      "displayNames": ["Glutamic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3252"],
+      "lastModifiedAt": "2022-12-21T08:10:44.000+00:00"
+    },
+    {
+      "code": "E621",
+      "displayNames": ["Monosodium glutamate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3254"],
+      "lastModifiedAt": "2022-12-21T08:10:44.000+00:00"
+    },
+    {
+      "code": "E622",
+      "displayNames": ["Monopotassium glutamate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3255"],
+      "lastModifiedAt": "2022-12-21T08:10:44.000+00:00"
+    },
+    {
+      "code": "E623",
+      "displayNames": ["Calcium diglutamate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3256"],
+      "lastModifiedAt": "2022-12-21T08:10:44.000+00:00"
+    },
+    {
+      "code": "E624",
+      "displayNames": ["Monoammonium glutamate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3257"],
+      "lastModifiedAt": "2022-12-21T08:10:44.000+00:00"
+    },
+    {
+      "code": "E625",
+      "displayNames": ["Magnesium diglutamate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3258"],
+      "lastModifiedAt": "2022-12-21T08:10:44.000+00:00"
+    },
+    {
+      "code": "E626",
+      "displayNames": ["Guanylic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3259"],
+      "lastModifiedAt": "2022-12-21T08:10:44.000+00:00"
+    },
+    {
+      "code": "E627",
+      "displayNames": ["Disodium guanylate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3261"],
+      "lastModifiedAt": "2022-12-21T08:10:44.000+00:00"
+    },
+    {
+      "code": "E628",
+      "displayNames": ["Dipotassium guanylate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3262"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E629",
+      "displayNames": ["Calcium guanylate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3263"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E630",
+      "displayNames": ["Inosinic acid"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3264"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E631",
+      "displayNames": ["Disodium inosinate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3265"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E632",
+      "displayNames": ["Dipotassium inosinate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3266"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E633",
+      "displayNames": ["Calcium inosinate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3267"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E634",
+      "displayNames": ["Calcium 5'-ribonucleotides"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3268"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E635",
+      "displayNames": ["Disodium 5'-ribonucleotides"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3269"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E640",
+      "displayNames": ["Glycine and its sodium salt"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3270"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E641",
+      "displayNames": ["L-leucine"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3346"],
+      "lastModifiedAt": "2022-12-21T08:11:23.000+00:00"
+    },
+    {
+      "code": "E650",
+      "displayNames": ["Zinc acetate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3271"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E900",
+      "displayNames": ["Dimethyl polysiloxane"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3272"],
+      "lastModifiedAt": "2022-12-21T08:10:45.000+00:00"
+    },
+    {
+      "code": "E901",
+      "displayNames": ["Beeswax, white and yellow"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3273"],
+      "lastModifiedAt": "2022-12-21T08:10:46.000+00:00"
+    },
+    {
+      "code": "E902",
+      "displayNames": ["Candelilla wax"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3274"],
+      "lastModifiedAt": "2022-12-21T08:10:47.000+00:00"
+    },
+    {
+      "code": "E903",
+      "displayNames": ["Carnauba wax"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3275"],
+      "lastModifiedAt": "2022-12-21T08:10:48.000+00:00"
+    },
+    {
+      "code": "E904",
+      "displayNames": ["Shellac"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3276"],
+      "lastModifiedAt": "2022-12-21T08:10:49.000+00:00"
+    },
+    {
+      "code": "E905",
+      "displayNames": ["Microcrystalline wax"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3277"],
+      "lastModifiedAt": "2022-12-21T08:10:49.000+00:00"
+    },
+    {
+      "code": "E905a",
+      "displayNames": ["High viscosity mineral oils"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3335"],
+      "lastModifiedAt": "2022-12-21T08:11:19.000+00:00"
+    },
+    {
+      "code": "E907",
+      "displayNames": ["Hydrogenated poly-1-decene"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3278"],
+      "lastModifiedAt": "2022-12-21T08:10:50.000+00:00"
+    },
+    {
+      "code": "E912",
+      "displayNames": ["Montan acid esters"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3279"],
+      "lastModifiedAt": "2022-12-21T08:10:50.000+00:00"
+    },
+    {
+      "code": "E914",
+      "displayNames": ["Oxidised polyethylene wax"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3280"],
+      "lastModifiedAt": "2022-12-21T08:10:50.000+00:00"
+    },
+    {
+      "code": "E920",
+      "displayNames": ["L-cysteine"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3281"],
+      "lastModifiedAt": "2022-12-21T08:10:50.000+00:00"
+    },
+    {
+      "code": "E926",
+      "displayNames": ["Chlorine dioxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3345"],
+      "lastModifiedAt": "2022-12-21T08:11:23.000+00:00"
+    },
+    {
+      "code": "E927b",
+      "displayNames": ["Carbamide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3282"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E938",
+      "displayNames": ["Argon"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3283"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E939",
+      "displayNames": ["Helium"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3284"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E941",
+      "displayNames": ["Nitrogen"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3285"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E942",
+      "displayNames": ["Nitrous oxide"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3286"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E943a",
+      "displayNames": ["Butane"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3287"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E943b",
+      "displayNames": ["Isobutane"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3288"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E944",
+      "displayNames": ["Propane"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3289"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E948",
+      "displayNames": ["Oxygen"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3290"],
+      "lastModifiedAt": "2022-12-21T08:10:51.000+00:00"
+    },
+    {
+      "code": "E949",
+      "displayNames": ["Hydrogen"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3291"],
+      "lastModifiedAt": "2022-12-21T08:10:52.000+00:00"
+    },
+    {
+      "code": "E950",
+      "displayNames": ["Acesulfame K"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3292"],
+      "lastModifiedAt": "2022-12-21T08:10:52.000+00:00"
+    },
+    {
+      "code": "E951",
+      "displayNames": ["Aspartame"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3293"],
+      "lastModifiedAt": "2022-12-21T08:10:54.000+00:00"
+    },
+    {
+      "code": "E952",
+      "displayNames": ["Cyclamic acid and its Na and Ca salts"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3294"],
+      "lastModifiedAt": "2022-12-21T08:10:56.000+00:00"
+    },
+    {
+      "code": "E953",
+      "displayNames": ["Isomalt"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3295"],
+      "lastModifiedAt": "2022-12-21T08:10:58.000+00:00"
+    },
+    {
+      "code": "E954",
+      "displayNames": ["Saccharin and its Na, K and Ca salts"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3296"],
+      "lastModifiedAt": "2022-12-21T08:10:58.000+00:00"
+    },
+    {
+      "code": "E955",
+      "displayNames": ["Sucralose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3297"],
+      "lastModifiedAt": "2022-12-21T08:11:00.000+00:00"
+    },
+    {
+      "code": "E957",
+      "displayNames": ["Thaumatin"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3298"],
+      "lastModifiedAt": "2022-12-21T08:11:02.000+00:00"
+    },
+    {
+      "code": "E959",
+      "displayNames": ["Neohesperidine DC"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3299"],
+      "lastModifiedAt": "2022-12-21T08:11:03.000+00:00"
+    },
+    {
+      "code": "E960a",
+      "displayNames": ["<p>Steviol glycosides from Stevia</p>"],
+      "policyItemCodes": ["POL-FAD-06121"],
+      "lastModifiedAt": "2023-06-16T09:49:55.134+00:00"
+    },
+    {
+      "code": "E960b",
+      "displayNames": ["<p>Steviol glycosides from fermentation’</p>"],
+      "policyItemCodes": ["POL-FAD-13301"],
+      "lastModifiedAt": "2025-04-25T08:35:25.831+00:00"
+    },
+    {
+      "code": "E960c",
+      "displayNames": ["<p>Enzymatically produced steviol glycosides</p>"],
+      "policyItemCodes": ["POL-FAD-06122"],
+      "lastModifiedAt": "2023-06-16T09:49:56.069+00:00"
+    },
+    {
+      "code": "E960d",
+      "displayNames": ["<p>Glucosylated steviol glycosides</p>"],
+      "policyItemCodes": ["POL-FAD-06123"],
+      "lastModifiedAt": "2023-06-16T09:49:56.577+00:00"
+    },
+    {
+      "code": "E961",
+      "displayNames": ["Neotame"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3300"],
+      "lastModifiedAt": "2022-12-21T08:11:06.000+00:00"
+    },
+    {
+      "code": "E962",
+      "displayNames": ["Salt of aspartame-acesulfame"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3301"],
+      "lastModifiedAt": "2022-12-21T08:11:09.000+00:00"
+    },
+    {
+      "code": "E964",
+      "displayNames": ["Polyglycitol syrup"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3338"],
+      "lastModifiedAt": "2022-12-21T08:11:20.000+00:00"
+    },
+    {
+      "code": "E965",
+      "displayNames": ["Maltitols"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3302"],
+      "lastModifiedAt": "2022-12-21T08:11:11.000+00:00"
+    },
+    {
+      "code": "E966",
+      "displayNames": ["Lactitol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3303"],
+      "lastModifiedAt": "2022-12-21T08:11:11.000+00:00"
+    },
+    {
+      "code": "E967",
+      "displayNames": ["Xylitol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3304"],
+      "lastModifiedAt": "2022-12-21T08:11:11.000+00:00"
+    },
+    {
+      "code": "E968",
+      "displayNames": ["Erythritol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3305"],
+      "lastModifiedAt": "2022-12-21T08:11:11.000+00:00"
+    },
+    {
+      "code": "E969",
+      "displayNames": ["Advantame"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3344"],
+      "lastModifiedAt": "2022-12-21T08:11:21.000+00:00"
+    },
+    {
+      "code": "E999",
+      "displayNames": ["Quillaia extract"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3306"],
+      "lastModifiedAt": "2022-12-21T08:11:12.000+00:00"
+    },
+    {
+      "code": "E1103",
+      "displayNames": ["Invertase"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3307"],
+      "lastModifiedAt": "2022-12-21T08:11:12.000+00:00"
+    },
+    {
+      "code": "E1105",
+      "displayNames": ["Lysozyme"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3308"],
+      "lastModifiedAt": "2022-12-21T08:11:12.000+00:00"
+    },
+    {
+      "code": "E1200",
+      "displayNames": ["Polydextrose"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3309"],
+      "lastModifiedAt": "2022-12-21T08:11:12.000+00:00"
+    },
+    {
+      "code": "E1201",
+      "displayNames": ["Polyvinylpyrrolidone"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3310"],
+      "lastModifiedAt": "2022-12-21T08:11:12.000+00:00"
+    },
+    {
+      "code": "E1202",
+      "displayNames": ["Polyvinylpolypyrrolidone"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3311"],
+      "lastModifiedAt": "2022-12-21T08:11:13.000+00:00"
+    },
+    {
+      "code": "E1203",
+      "displayNames": ["Polyvinyl alcohol (PVA)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3312"],
+      "lastModifiedAt": "2022-12-21T08:11:13.000+00:00"
+    },
+    {
+      "code": "E1204",
+      "displayNames": ["Pullulan"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3313"],
+      "lastModifiedAt": "2022-12-21T08:11:13.000+00:00"
+    },
+    {
+      "code": "E1205",
+      "displayNames": ["Basic methacrylate copolymer"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3314"],
+      "lastModifiedAt": "2022-12-21T08:11:13.000+00:00"
+    },
+    {
+      "code": "E1206",
+      "displayNames": ["Neutral Methacrylate Copolymer"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3354"],
+      "lastModifiedAt": "2022-12-21T08:11:24.000+00:00"
+    },
+    {
+      "code": "E1207",
+      "displayNames": ["Anionic methacrylate copolymer"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3355"],
+      "lastModifiedAt": "2022-12-21T08:11:24.000+00:00"
+    },
+    {
+      "code": "E1208",
+      "displayNames": ["Polyvinylpyrrolidone-vinyl acetate copolymer"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3334"],
+      "lastModifiedAt": "2022-12-21T08:11:19.000+00:00"
+    },
+    {
+      "code": "E1209",
+      "displayNames": ["Polyvinyl alcohol-polyethylene glycol-graft co-polymer"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3351"],
+      "lastModifiedAt": "2022-12-21T08:11:24.000+00:00"
+    },
+    {
+      "code": "E1210",
+      "displayNames": ["<p>Carbomer</p>"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3378"],
+      "lastModifiedAt": "2022-12-21T08:11:28.000+00:00"
+    },
+    {
+      "code": "E1404",
+      "displayNames": ["Oxidised starch"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3315"],
+      "lastModifiedAt": "2022-12-21T08:11:13.000+00:00"
+    },
+    {
+      "code": "E1410",
+      "displayNames": ["Monostarch phosphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3316"],
+      "lastModifiedAt": "2022-12-21T08:11:14.000+00:00"
+    },
+    {
+      "code": "E1412",
+      "displayNames": ["Distarch phosphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3317"],
+      "lastModifiedAt": "2022-12-21T08:11:14.000+00:00"
+    },
+    {
+      "code": "E1413",
+      "displayNames": ["Phosphated distarch phosphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3318"],
+      "lastModifiedAt": "2022-12-21T08:11:14.000+00:00"
+    },
+    {
+      "code": "E1414",
+      "displayNames": ["Acetylated distarch phosphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3319"],
+      "lastModifiedAt": "2022-12-21T08:11:14.000+00:00"
+    },
+    {
+      "code": "E1420",
+      "displayNames": ["Acetylated starch"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3320"],
+      "lastModifiedAt": "2022-12-21T08:11:15.000+00:00"
+    },
+    {
+      "code": "E1422",
+      "displayNames": ["Acetylated distarch adipate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3321"],
+      "lastModifiedAt": "2022-12-21T08:11:15.000+00:00"
+    },
+    {
+      "code": "E1440",
+      "displayNames": ["Hydroxy propyl starch"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3322"],
+      "lastModifiedAt": "2022-12-21T08:11:15.000+00:00"
+    },
+    {
+      "code": "E1442",
+      "displayNames": ["Hydroxy propyl distarch phosphate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3323"],
+      "lastModifiedAt": "2022-12-21T08:11:15.000+00:00"
+    },
+    {
+      "code": "E1450",
+      "displayNames": ["Starch sodium octenyl succinate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3324"],
+      "lastModifiedAt": "2022-12-21T08:11:15.000+00:00"
+    },
+    {
+      "code": "E1451",
+      "displayNames": ["Acetylated oxidised starch"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3325"],
+      "lastModifiedAt": "2022-12-21T08:11:16.000+00:00"
+    },
+    {
+      "code": "E1452",
+      "displayNames": ["Starch Aluminium Octenyl Succinate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3326"],
+      "lastModifiedAt": "2022-12-21T08:11:16.000+00:00"
+    },
+    {
+      "code": "E1505",
+      "displayNames": ["Triethyl citrate"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3327"],
+      "lastModifiedAt": "2022-12-21T08:11:16.000+00:00"
+    },
+    {
+      "code": "E1517",
+      "displayNames": ["Glyceryl diacetate (diacetin)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3328"],
+      "lastModifiedAt": "2022-12-21T08:11:16.000+00:00"
+    },
+    {
+      "code": "E1518",
+      "displayNames": ["Glyceryl triacetate (triacetin)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3329"],
+      "lastModifiedAt": "2022-12-21T08:11:16.000+00:00"
+    },
+    {
+      "code": "E1519",
+      "displayNames": ["Benzyl alcohol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3330"],
+      "lastModifiedAt": "2022-12-21T08:11:16.000+00:00"
+    },
+    {
+      "code": "E1520",
+      "displayNames": ["Propane-1, 2-diol (propylene glycol)"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3331"],
+      "lastModifiedAt": "2022-12-21T08:11:17.000+00:00"
+    },
+    {
+      "code": "E1521",
+      "displayNames": ["Polyethylene glycol"],
+      "policyItemCodes": ["POL-FAD-IMPORT-3332"],
+      "lastModifiedAt": "2022-12-21T08:11:17.000+00:00"
+    }
+  ]
+}
